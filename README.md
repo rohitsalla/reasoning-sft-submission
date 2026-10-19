@@ -12,6 +12,8 @@ This is the **ordinary full-parameter 15,000-example SFT model** selected by the
 
 Repositories are private. Grant the intended graders access to this GitHub repository and both Hugging Face repositories before submitting these links. The live research run is not controlled by this submission snapshot.
 
+**Publication status:** the GitHub snapshot is prepared locally. Automatic approval review requires exact-destination approval before pushing it. Hugging Face model/dataset file uploads are also pending. This package is not yet a complete submission handoff.
+
 ## Inspect and verify
 
 ```bash
