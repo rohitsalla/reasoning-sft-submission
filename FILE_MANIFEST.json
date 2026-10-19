@@ -290,11 +290,11 @@
   "LLaMA-Factory/tests/train/test_sft_trainer.py": "e49ad1ef3241eb34fd8bacad0273ab97279abdf44cf86a1b8f175f289fd16750",
   "LLaMA-Factory/tests/version.txt": "35edfb6c134aa75eceec9bde22a4a6bc099849b226c11ec80e31f1269a177157",
   "MODEL_CARD.md": "d3cf1fc44e4b47b9b376a81993db12b80eed0e4355d7500c4f643b9bb0c476db",
-  "README.md": "a91a330665666cbd727b58951405f24801776e5652e6518803c2c0b0b2229aab",
+  "README.md": "6612c2b04614b79c1020a08532e612653dadb91889e603af5af9e7e37fef52a1",
   "REPORT.md": "55704b4c460c4e58667accf3586feb256536b26d73d26a56a71a36df2a8eec46",
   "REPRODUCE.md": "98f59705e53ceee5fcdbfed0807fe5693f6ee482ee15d35cfa3fd75c8c3ff55d",
   "RESULTS.md": "9fd5bb907b56bc8152c7405504f170b09c5e3c35e73a61d942d2fb68fb329f0a",
-  "SUBMISSION_CHECKLIST.md": "4ff5ed08b39554c8106429cdc926a7a4aad9888f704c8d72c67dd32bbefa069e",
+  "SUBMISSION_CHECKLIST.md": "14144328ddfaf4534c5b77437d5fd22acd88354171f1d45c29e25ec696b848e8",
   "artifacts/datasets-final-8k/advanced.json.gz": "ed34706f0c9a33048f861520492331d29841da59b2f2d8d2091efa8462c59632",
   "artifacts/datasets-final-8k/dataset_info.json": "5866c59a41597a26a0cc1fdad6caf361c95622037a6bdb9236a21bdaf53c8fda",
   "artifacts/datasets-final-8k/selection_manifest.json": "06682645575be6f11c312cfd1a9870f645339b866170005150d6a70128587b96",
@@ -407,5 +407,5 @@
   "results/full-sft/olympiadbench/correctness.json": "6ff587f7fd2b0757aff74960248c32df693f15eb67955f48e5fc7710168a2028",
   "scripts/download_artifacts.py": "97ea9fd5ff95ed02f185c3d54c96f3d5b5e6fe0f5b434da36ee076404bc44ab5",
   "scripts/verify_submission.py": "c3ca57c8ace9c43823c070816f185f3a1d59ce0e24ec5264b278959a0113ebf3",
-  "submission_manifest.json": "bac4dc55bf8a093f44571757accb551923d7915deba0e062c8694c2ddf37bec8"
+  "submission_manifest.json": "f5408554e9cf1aa2677e6d277060c51c1dfd9e12555bd58f7d547bef5cec2a47"
 }

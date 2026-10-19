@@ -26,5 +26,6 @@
   },
   "training_data_sha256": "dfd90ba66bf97bfe649befcb7edf009e5a539296790a22e0b12c19336d19d10a",
   "trainer_source_snapshot_commit": "a2718255e0409841aa3794c077350b8e5fdc5a00",
-  "trainer_source_tree_sha256": "05aa58cebdff9cb78fc06a5b94014dbad4f5c3d66d6de0a210bb2c4ef5a0af75"
+  "trainer_source_tree_sha256": "05aa58cebdff9cb78fc06a5b94014dbad4f5c3d66d6de0a210bb2c4ef5a0af75",
+  "github_published": true
 }
