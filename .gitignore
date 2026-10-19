@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env*
+models/
+artifacts/datasets-final-8k/*.json
+!artifacts/datasets-final-8k/selection_manifest.json
+!artifacts/datasets-final-8k/validation.json
+!artifacts/datasets-final-8k/dataset_info.json
+*.safetensors

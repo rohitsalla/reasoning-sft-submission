@@ -1,0 +1,8 @@
+# Versions observed in the completed run; separate environment from evaluation.
+torch==2.10.0
+transformers==4.55.0
+datasets==3.6.0
+accelerate==1.7.0
+peft==0.15.2
+trl==0.9.6
+# No DeepSpeed configuration is used by this full-SFT recipe.

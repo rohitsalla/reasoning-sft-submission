@@ -1,0 +1,8777 @@
+[
+  {
+    "problem_id": "5d2da21fb286051ac4ca8d9fd341be9bde7ebb60debecc29395db40f63b704b6",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "197952c13dffea356ca345390a02270882c8943a577c5999d70f3cab5b0ad834",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "92a492e674619f5ef65e95ce5db5884cd4d4d0579b35daa4267fcd00e54c653e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0865bc0823124364c831d28f6b089e305b2a777efd88e4091a46e71180b85dcf",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "74c93f73eed61abfc1895198ed116f79ef23eb3ccee7eb9989ddcc1b32a7a506",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f637abfedaca9364ecb48e18846bec3be926cc5ecc1d430c3eb3fa9375e1590c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cf46f6625ae2f783c6a9a95f610e9441eb2dd66763d15aa9bce43dc43020617d",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "516e5b02b624f8b6e698a39b7934e81c63c8bdbba0c873d0b9e0bf93a24a06fd",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "93fd0a45200184c41cb78cdbe9e8967315e702bcb143e65e74940e3d5a809516",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c555b3f73367cd8b5143320bfeca938978e8e65fc53264ed219308cda6616744",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3d93a5b2e4467dd2220e7d05560eda25e383b121e5a3a4098ebbd6ec8dedcae1",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "378234f65f45d334c85534134b501c02fa4a65323ae071a6739f8f31c3408987",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "2d9ed2e86352702f6c9ea84e770f049545cccfb8d3004f9631991f31977ab98a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "62d45515b9348e485b9cf62a67d10ac113649c8b05067adc72801a501b2f8bdf",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f69f70e13aa9ad757e9f97f57f93599d36381aef5332e20451fdc145837d880d",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b32d406fd363cb5ef72c63b90eb670c56079b7ceafe1dc9439e26119549a19de",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "60dd593b1af6dd4669bfe85e617d142858a03d0ff08b57f29a6430a0ccba34f1",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "8a874890a4d3a2154e4fd5332d6828ad71d135680c7b870877e7080144cae088",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "47a4e08e51d829e32d94d2a20b7e713c40eeb8b46a70db16bd6db6e48c50b246",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "244be3928cc88931e202e2e993dac0e3afc31b527880d21c0139f24b42660b17",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7fe768ff57622f829921ff57329163e205d21089c37b675a3683dbabbc95b827",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2bc7891c083c7ad2a041bd5ad756a5dc608cf1ef48390fdd9ce02424446c94da",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7c84cdb13a90ee9389ce686f1fe11baa0ad04e744540405013d6f4cb4dcde498",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "29e69612091097189abc9488a8e59a7c9656de4c99573ae23336e3735de69914",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ed93aa7d9a55308b4117dd6a038044d9a16a52d4ff06de806891f0c7fa68c172",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b7db0831397b18da1fd8b862f6153225f91af5c3240632468d8c7f5784afdc87",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f76e25051b59ecb4366feb9996a3cf62bf413978e82fe4befab75c3577183e37",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e5dfa8e6a2950ec606881d3ad51318a86937eadb5a827839d6fcbd6abe34a187",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7eb9fb5e29e7ca712d993334e254fd03eabf891fb18a9590aeeec2b6ae57aca1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "86e19161f7d387849dd7f5c75fbf51de11edb2f22d48feb685ffd9611163845b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "656cf6a35891b89d5b2ae255fdeb5790a3feb9761209c2328fd5c00ce7460b74",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "540e6e7dff23b686bd5afbfee7962fdabbe9402f4c3cc8610ec8f3edbbb2662a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "aa72950bf3806bd4899d5cfacd3b475f7d4a8ceb3456396f43d6a618c18d83df",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f231393bbd089125a74d5b6a6a2e283da516610ad161c95aea55cd9ebab30a20",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4c27c6b755899a4ca2de7b75cd2f766d0932172e84cb1d352a1c86a6483a636f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "04bf9c9ced93b25c2a63fd88b25490c0b897e98d682a22588247a81759d59475",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1a7e2bd786cf2e78440ab0a6b6d250d4e82f7463c7389a64a0ed83c91bb279fb",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e107941df9b0c4598940550b9d5320b4f4e2efc649a48b07cc1e01bc3f597e5d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "976ee12af05219f4a5cc9ff7fd64d9cf3e677c56bcb349f48854dbffc4145f59",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0769b1e9a7347fe040435edcafcf9676dcf1eedc8aaf8ed5a478e289ef914365",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7712c58aa474d801fb52d12e8392cac17ddca0cb7716df091523235bb3098a7d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "21fa83aa043199478acd8b90ae1292ad67723483b606b1c463b9a908376a8a58",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3870261f23dd23e3fb2a84772898b95044c3f9803c07821a746bbe267378788a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3f2a0d307f0586a5470471dadec284d146d12ab6056e6213ed87ed890da61c21",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5b7d9b55260d680091439a84baa84b6537b0177ea720ff80fde78ceb41771b8c",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "5e36bbf8afe83987f6fe1212c1659c241dbc45b8be2e4ec77ef5a20a4352009e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "8bbf6b5404a9a37a1df6d8cf4c4a056b4effc1a9badda9c9cc8a2fc34f073619",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "88844e91767bede97fea3cd8870c22ad0339bbedd16705810d3a4c2138770bd4",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "982351f53a968c301cdde1a1de99bc1d1f36e1839cee624ee31803a7ddb84d6e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5f43ed8c416ca2350dee9586fe154da84215ef04b48727ed8ee30aa07d07e655",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "6c3f396757c9d9a7fb5f9f3a51075701700e26906bd2e8f5415f946312592ccd",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4b94310488880b57410bbe817df319593a92c194380bc410698508c5d53aadb0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "8b84c280ae8a52751c36d904909765316f955c7b660b1d3c9132b2653dfaf70f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "31b05fcef1333df6d88143c37c45a4c61a71b16627fc327c35f694a6b98fa587",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "469ec5649dddaac202993afbf8fc2abd827d7a821ec54457c37d7c30510c88e7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d7c0120bdceaaa98f4af3a355d11d23802222a646bde0b193cc880d12dd161e7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "66955015218fa1c5e14d8fa59c6d07ee6f9d8647e03e41d31abc9cd4e4b15e18",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1a3ce4251615e06a88820e434f86dbee917a1f1d7b733c558aca9c2dc232cbd6",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e2da479a9940f98c0c45e5a12746cf21f9ab8f55f5c431f5c8de22265ae6ee09",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "04b2ea45542900f2016bfe59ef615e98378fd5d894b9a3e7065638140a8894c2",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7074e838c0cc4e4676cb4e87445eedc371f07ae402aeef5776523d29830160c7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "93b58c61860acf49b9d4d02d72ceeb9226383072457a729d15785e526d4bd012",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e5f84255acd71bc817a81931111dae52a48be767b265ae19cfa0d5d77cc25817",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "68f2a3dea7e0491f7b8fab01acdb4fa4765f22be35a76e617509a9bcb25a09a6",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "08419fc2f10f88e449e456a18438f4e6c59dffedf76926abd100611fba205c49",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3693b98fda265b9826cf37cd1fa3df441554b9dd2f8aa1e36965a57474b7bfe8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "57f1862aa4d3fac194ba877902910ac8a21a577e0a6e5145a2cedc83715fbba9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a7135bd04502d1c65cba9542655adabff6371bfd043a441782fc6b47c06a76dd",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "15fce85bb3ba332cb56f1f72bc38dd74bdcb0c230e530eb6e7b396e9e189d6e7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "50c18b371923b16fe531947856bd754335a37991d841674d7908a773f244f358",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1b5d0953893ea201c3f871b314a74a2a2a81afeeb4530adad5c6d5a73d87de29",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4fa5c92a41361899b44fe445188bb37005dc4626ca88606451fd453e304b339e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5d61f57ef9af927890c8db910c03053866584e0c667667e2a120c93a57057a26",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1505fd8d9d16633956f36ced2c27a801856876347606c16edbcec32c9ae6c2fd",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a85964acdf25068bbb0d33f1903771126a4f3656c711d53a777e6c88162d3787",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "eb1faefddd5ad6650e029833a7681bc5f5857981cfe354f3006058955bd864b9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9e94e798860c991cd82fd4d623e3821e07babd595cdfca5f7df5e3ba20e7bf04",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "aa24b45f5e917e1bcc7fb1f5d40472a325bd09b4828db86401ca9e4b441977b5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "83144325f32021d3548fbb5ff805f06d1f942c0a0020daa870e63ba2e4b42c64",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "ef65ee852b098a7b92e173f03f34e1eff0d8918cbab929439ca71d0f01ca0056",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7c74a530019df118d76bc6c94257cf954d978d07bcf84fe7ec14514b9bf66187",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2befaabf5ed5c3f95633d94131900a77a1dbdeec866ef6396e44490d4d8b21a5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "3dcb4baefd69f7b5f8c8fc0c22acf6ddb20fd9c19be880657fbe0ab392afe2c8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8ca26ac9160c170f5a83098324cf148d2158ee205833f6f20030bac3a79504d9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "203bf199cc990202460a8c120832bf422fc4d7ef779fa91234fb2ce4c2e271a0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ee066ebe62f82899d5771371fb2d439b1ba45205533c62db9c6a7863d1f4c004",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4218ac7724355b759427c5cc4e92ae643f446459d7c96b5bd145a29a93bc3c8c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5d184049edf8eec3d54b684d5bc0f28dcdde733ff436b504a4f9344962e383c5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "20b80d51b73beb331edeec7a31e7ea900178804d3c93276297f6627079ba5a6d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0bb2d1f53339fccad4f375d72f49df57ddfe9eedf02f41c160bddcd2bee714ed",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4049a52277a3e888fe21dc30c664f89940ffd3a86739bfb88df96921ce1cb477",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "aea3af4037656695c116b6efc0d28838b3210bb2c0019a344403abe0696cc056",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2ae0ca5a1ab80f8c74ecb94b0c601890c1d6d4b8d8b036ae9675dce7ca80e4e9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9f9e15c7c7ca08e1df174978855ddfe65099c53296d15215e02b5125a59fa5c1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cd933f96a7f0218529a20c8aa421e0350846e8d0ad6bad7c22ee835dd00e6f8d",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "928fe8332f527406a758e7e73b50014bb399772e6fab1215f078eb477311802d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "86e221463586fa1798df304035bcd264692d29813180ff1d33bd914ce3976b8c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1625106f5a94ab1ea596d2f6477e1240a6cc7ee757b312612a279470ce633752",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4fdc9cea2612f14ea78c9334c5cf42a68691a0c3b8d3730ed2a7e56fb8615c3e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "65e3a907e0d9de441389e03f026d3fa0f5f9728991a1750eaceb11dbc85c131d",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "94b7d9002c839795e7263599d8b7e1a4fc035a032d3ca1f13863ab2f7edfe888",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7a83a7bc9f4a2a04ed296af56e32161eb3131090581a20b631ed6e0af84b2b78",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "76df50efa98c9b28bd39a7a9e6ab24a8e63c70ba84ede0c2db844371530dae36",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e74f68afc7f95c611cad70ce652ad331648e9e3da3a0973713d46c22f027a57b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6285a614866bd8a78c0dcaf583a0f7d2993e264890fad860e632254b06b8db77",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "fafb055298b33ad3cbb52c11021cfdd69263f406c9d22ff3965c67753441be27",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "78e9e4407e576d37821d8341ee0d98ea2c07f939ab2455a3dda681d56fa0edf0",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6679fcdb81b2ad0648ae2e864af3ce7e91cdb27ba8befa755c84a1bef8d42370",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "bb4e45e7b6aaadf30594ddc50fdf61e1339e049271e0074733b8254d502289da",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a777323fb9fb08e623b94e3988f948b96c5045ad9f527fc0bb11d6463099d3f0",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c524bb772b8247a5f43e98893782e911c8c1e5de5014329dd34ab06aafe2086e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6d414517d5d44234167803560e4e3174f5039a42b538cdfac0d336e14a67e8d0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3a7b80b79b0cd673c61d467b0ab6c685feddeac156bca20daebf6464260b771b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b705fb4dfc0b0da7c714ca7ff54806cc3d13d6bcc51d771d4dbac9f5979e6d99",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b8915d38693a1b0d1aa4ce2134921d03db450558597f00be7694eb7648d75ac1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "be49026a471d85db07c00fea4ad7c58e0ce157047c868f0d502440a133dbe8ff",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c0bfdc41bb6edcdf3bc4dab50c75d5b1698799d90b3035ffeb7673a41024d065",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7fcacbc0c8d828dde7f0b33d7b8f105f3b53d3e960b1933ed63e37b2a07f4afa",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "835e8c06f565e0662ffc5d4c2c30712cbd6d108b09b2203a026ea75434edfc27",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e49af895ee0cb0a6df3600f8124a2b3c8b982eae64059a2e1a70ffac8a35d027",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ecd0ccac9827fd10b7cff920152f0041ca47269ea9d5208e15beab332513b8b5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e9e3978ebe459a0def810e7bb3f67b1799068408d0dfce9a3c6a63170a440048",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e6182cf5482a6bbb882839c249bb9266cdcb8a537de625c05770aa7b5f98a2a0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "afe06393ec006722b2397b018b310c4756f45a77c1d93fb379a266f181b03a52",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "276cf0dbcc07bad815c9d32c82f9c09b9e09823cb1fb7a9112065ec3f027a514",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6abd511000658eb50be6037df3354b83f2d7625db90b0d2c04c41e306338880c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "689dc24f2ffa520a60b112c2dac6b49e3d6b53aa66c1265bcfda3ee25ea94b0f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1c67096a83cba4980b3c54820b598c190905d1e349bdc82cdfa5c3973997b79d",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "21d79f7bc77cc1c826cf311b8e74ec1dc2ca134cbd234e62a7b888533609e862",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "c9d7596cd051481044ea9bc311023ec9f85f764e47fca2a6fae1bb7b876cf93e",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "cdbaaa7bfcd08663aeb0b2520c10a00ceab02d02760e1cd77d2cc78f9d8a3b79",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b867a5c1aeca280d6b9ea5ed4d24b2db95079519041f4a01c131af140f12291e",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "36c876538f4f2dc7076a7164f390d94bd3873d2a30f7d564480c22812f67f41f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "86eb21a70a133a9068d32a6dd35f31d69ea4b554e9478587a0185934f4387f85",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "5eb0653851efb7ab22b7c4246e67ddc5c98b0a31c76c41c808720f441155d2ea",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "41fbd3bea0f55f903b5148ce6b0b90061366433c5f744ae6bf2bf97848be8059",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "4d9340e8c0082dd583c8985460d402b98d7aac6a0268588c54c0135c33221c71",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "521c99cb5de82d756bec555d6942a05459da238bb4bccbe6da487165e9166036",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "4b94bfd9ef42e0dfff34a1655f04fc0a19bce257f25a2f48c5fc79add924f1d6",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3edcfebd0125a0b0792c3a4ac2d1182a80f88d7ddeb01449ab6e79e6a91b556b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cfb33aac3b75f2f27db5b6a1b64ae12a431df9f8dc1284e519bcec43c7f5a1e1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "b662a4739953f316d48ee92953480e881724e94fd824203b33f2f43c2d89b553",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c241a191d1427c3c94bc2bc083ec21b5d572d23ac41c2b2dfe237a3077c7d8d1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "56df313c7f86a3c9c0077f429a000e2c6660ad1d02ee08752b5c73fdc4314552",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "6fa693af5c9617afbfa4eb9db7d9a962110a2eec01831317a18230802bce3be8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "9009de6d1dc7063517321cbf43048988a26b35014105fbde29a2043e3fdbe5e7",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "56a8e6b40b58bfa382c5f11a40681e5d7dd659b1da733c32940f8359679ba1ca",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "54ac019c838abc6b8504616208acb532045c0ed50658fde8d6eda3d3fe6c1b04",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "06d50626eb6c3726abafbd465a18e6419d6df90b15cc09a15c20b59d4ffc8429",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "aa8fd39c5b11b761f87d630f708d3bfab48c193c07fbd3b99a2d0d3394dbbaf9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c055c252490fcdc793d9073fb9abaabaf80760f3b5810e8d259b16f7feb1d817",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "9ebdfb0b2599f4ce50cb2401a4cb577f363fafc63e5e8864e3bfc02ba3b7d5e7",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "73e74e3065f00eb805053be9677b294f7792e681e6f07acb31d0b538bf1d80e2",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "fb3cd6f46140720c3bb5ab04e383d714f9de3f9546ee2880106c89d4830b22d5",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "f26e77b6de7c04643861a02c9f80a44121d2945242533a7340799851059bedf3",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3e51b6fa4aa2ecbf1f893be9a4435bfb2673743d4025aa7856e7adfe65d855a5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7ca0112e4f2cc09a80d47398651b1dab9882654804a47bfebaeeb1c1c19e474f",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "75ec1fa52e92f49b4ea305694382673e6e4833400315a95663e30417554c1dbb",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "dd65d6c3d7c643d46e4706cbed3293c3a6ca13537dfa8d8ea7092f6745a0a646",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "422cd5f2c7bd8967c92ba62a4c77f5b4cd706ff8e18178a43f9a51bc082e7ecc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "81468b6c89fa829043ed6647e778abe5cede818ae8e8d42e41c1a88bbb912dc8",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "c6aae7f06ccc0f00ea836cc207dcf4f72ea9fa51ca651381783fe5db72734134",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "64159fafccac0789c4d4ecdffa7540ca9bd21446b3a0cc53187ee58d6b8ac27d",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "d7c9aaa976f21cee8f9ae6cf05bcbf909fd6bb5449cc8dfc22bc51341171b41d",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f7f8a536b2e8b05e0078b6f05f0091e1b9bd240ebf5155354a3684b1587e3acc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "67242035b94e86ca009f442fc221631335967aa0608d1462f9bbd9dffb9bf7d3",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "5020010f97637ffdf76b074fb7070c1db17984e10469dc611e97f1bc793003ae",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cbb47428b2e05c358bcbae4f05e19b9d50721e2e8daf9e0fa80ce3d839f94013",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "961143ed3282237a917271971c5e6f7cf59b765dac851ea25b9164f1fad6c00a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "ad61b06955476c6ec1dc9e53ad8e1cc72675dce32720a2d8017bf7638f746e8a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "36e65dc66f77699dffd03aa034ba7f9a62511844d88fce736f586eadc5e1d2aa",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "554925e2e1a5a97f790389672a6506e5309903702273be840a0a1348c19497f4",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a06ef093474049afb821aad2077fe8ba8bf7af919f598824abfba2310fb1181f",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "27a1f3d6b45cf2965e2af523b3c2b5d5d0dc8d1c939146d40e59ce07a298fd66",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "4236616b9fa921dc5145db7c8949e6c7a75f6b324f7c6026b9d2cbbe3b2533f3",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ff5aea296440c6df741e924422ba40b804140532aa860a52f0879e18af2dfa4d",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "b35ebbe515333ac70b440efc3b7b670380b8fd9365f375f61df33e8998ee7cbd",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "35143bc087ea8d389e28d3ffa1bf71f501307099755d59867465ab74abac1d1a",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "42a16624d4c0b657d8eb53e1a540a81a70733e906382aa58d190869cce03708e",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "9e1a22b1cebb9ce76945f560bdf6ca2e8b5932d65d4a5a6de694d94f1173f9d0",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4211d078d90613b771e6134d10a6dbe8b3848c1fd645c48e5d05d35e6a5132b8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4ae4e9c3c566f05fb28245d4e7d9bf6897f32017bf3d0194a90f21feb4ce0798",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "67078bdc1298fa587c46f47af03a66a9996d583c846a264617809b117769a9b0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e71f5ed1233e7a5025570f4eb127308edd1eab4f91449352106c2ea9fe2f6021",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f0c2e7a28330793538e333efd6eb72e7f7f4ada8bdeee87a9c564d1659814ac3",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5a9349371559efd81156c50f87bb012d5c8702ddd576e17ce3cd1000a8317c26",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "d53187a2205ddf573a5fecc2aedcb45cdab3fbb28d880791b6b915a6dff19d51",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "a045cb71cd31cbb5bd29a2da78320ae3dfad0f254443a096e44573e3923a640f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "44abe9989e06eb03f5a28889623623825bf1c9c3b986b37e992bcf8e86902904",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "90c690007f0c14eefc12f283892b3fb6d31fd7d34f15239bc8361ae8c35fb36e",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c1a597ff12f89ebfc21d2ef52a7bc0b83d925547c67633a4a541ea46bbf68ed9",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "a8b9d051b00f96ae7b2a1160fcb48bea63f1564ad7f04996ec7ae11df33081e9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "a6d4991298e9777d9ada0e84ca3e2bd1b8caa7cf57885d020140f6f1f4813a2c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "ecb3981d7a9d22aa03a1a7ff873fa7ffd6916624af087f4ada0f2a20028afe06",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "94ce753cad928b1af4a893831830deae91d8c493f3951bc4c7cac209544698df",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "fe90db72bc343b8fde7e0d2ff62ec222a8f2ba9a765ce4c0b156336fafc488fd",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "97820fa0f71ec90a8b329f6e55049fc95cb9243facf6cc02104ee983e7d2b455",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "5c51fdf7ab9b17b4cd9f8b1746cf26cb735af959282841e2315b13202836ebcc",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "43a83fcfec88ca57fb1db7acaa72b06942beb912d65cc4dde40d78d6bc60822b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "54b981cecc7a68c37907bc634d53d02a9a3855a66105c47830263e8a8ace4924",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "d039715a7ea5c6daa0683cc6dfa6fe28aa6332b3389234add0d568f19f97999a",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "1d3aa51aea1b0710cb483a1c55ff4d147f7e2d14d9f0132fa647765e3aabe65e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9627978be72bcefbc54eeab8ec37c573b42fde770f617fe0159df3b0d625dc57",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "41539aa6f2459a387e4b7f9111e68b156562a9efdff8c2d1e24ea4ee74535dd7",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "dcd0ce89fca3aeea5a79b79c9bb0cde74c4d7f62bf03d2c937f2b220807d2130",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "89c57708c4a2b458988e6365c35e6b29121a8bddc6d722cad71f1cd0fc69582c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e41743595c3ba88ddcd0e847397b2265a59869f6ecf6e426e9b1e6ca7b2c2c8c",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "67c536d19b075c56d55cca39066b7d501481f21da56b00ea8ffd3fcd59607162",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a176413e59411ae888d4ffe688124f4b9b052369732b15ab4234d870d7a80605",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e654a0445c246ed60ecb9d428564899548017cf79fe20d5146068af2f082e050",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b306799585a06785ef3e659ae58fbab79e0c95cca0ddf55354f17a1d2654e89c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "37c952621e386ac5e6f7c40a14f996e7101a3f229375124fb90b2b395d7ec9f1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e50f22170347b28b3e015d49ca2638a784f42f41bf037db94add4c1e26cfe24a",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "747cc5264d03419c4331ce29636accc34e6e6ca032aee9672480d6ce354c59fb",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "9806d3670007378a7c381da637419ac98d7ecd208666b801f20e75ec2cf7f398",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "968a8953d5eda8f63ba7afa44b6dc5ec197888f84fcb7f02e7fbecf99aab97ab",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "e5ca2ce42e7c3c706bd61a1bd9d87033a0dd443ed6fd5428365fae20ce2cbe8f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e87fa4e4a7437a4250e09335af62b22f0c0dee30325db955a83ef0e03979c0f6",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c6c68fd5bb90bcce45b3b5ffabac87ddddb0cf24c0c74b59273ecf07d11a6c0c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1d6da492f558a476fa2c2af5c931580723a0107122d30d816594bd3e89630a15",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "217a358b36020fc7ba78448dbbdee9938c8fde1266eda26f2a8d21cf5d5e113b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "24d1f2d523e91c69c331348ef723647e5ed7e096afd2451616472024a5ec7b56",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "cfab37b73508ee5a63d30af5bc019068b9f9b9179a002d45527851aaa6d403a0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d7bc0e92b06117daa58b7464e8023de9c7d263a9d6972ed747934e4e4b46359d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7548026fbd59a7ba73e07f2b0b49080c3be54df2ab49acf3f5cce746fa80ef0e",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "34b0cace79bcbb112e8a0468eae3d102b37c9600c8413840cc9d80d4ee7792b1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2271e9ee829ad25aa9567da00dc0985ff55be85b1e7aaf12fc3151b3673ac0e8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2dcc756f15c8f5499fbb70b3c21396517429e519689e31aca20159698621f0c5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "ab0cd06e1b514ebc024dba54d6421fe9336665deddeb01279b307ea6cd6b6119",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c2262e7d299b6c34aed00d62018cb6bb04fec1ba301a83f5dd91d828841cc328",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "6322595572fe785fb7f8998e5b74b39f28c9c35e75263e9c8dca3170c6c0187c",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7fd8a5e54982b304c9591eb5d727916df59f53a7528a9d321b5b27dc6f648cc5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "637e81e743e59f001fc3cee11de35d0bfbab96781909fd75ebee9ebd75228aab",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "87b467893b4242c78cb7f73cbe4244596e7484efdd58ce9ddae94781a7936a1b",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "dcabfeaa27caeb09580733058873b14a537c5dc8b6db802d7c29dae09b38139b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a018481d3c14392602fa13592e669ed304b54271a203e4af166b19eea092334c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "0ad8be4690e45c39ec03f5e68a67cfc2835b1012d994ebdf42d15c2708a0e6d7",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "cf572962010c19ddee6c1122a88bae4260d35cf36670d7601255973683558b6e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d2abdc3a6127bf3f4a3324413116c71afc6f5a3bf5977055d58b1c70123b6570",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "3cd125ec65808900225176239da8dcffd30095e6a939a78a4b3c99e4cd5ae9e8",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "80ea72335aa77d8c3e17f459436635e038c47d38fd287bf0c45af5be6229abbd",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c2d3245d3d893c2544f2edc57f4764b67bb8330a0c15e95c691a5f93646adcc8",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1cf557cc1b010b246a1a325f537a73822a3cd5f36f5c7fd49bd52e4e52440595",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "0ea0eb92a08556aa7193353bb9cd0a3a5b331e229b8cbd23dc5a5b9350567b69",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "19761a31eb2c3b7783da541ad3163cc16b9498b6259a488537dcdde68415bbf8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2254ece5f5d0691b9e3c92e5754c052e76b6b32a94aac31027270fcd7cf1bfba",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "088670c7302b4e80452434e95c9977586d81b0894a7c98bb4280ba7abe20d25c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "a680777134dd684dc1812f1a54cc96aa8df175757b73ceb69002343b3ebc1a94",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "fd378570d63e9c26358ebf25997afb732c505af8a392df19a1c745c8aa8351a6",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "8d576fe551fc488922a6b3cee46475b1222fc7297e42b4b99b8ee69b58d14a01",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a1e832d3a4c54f27235688a3dd785645a12d0e7fa6173a2aa07081d6dce76c77",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d82288e2dfd848c8b728059dfac5156308093ee9cb2c5059a2e86f261a1abf84",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6f1d833fc5662af5121506683406241720f8ebf68669ba961ec575d80ca05f41",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "25c70e8eddfdcde4013b20ab94533a834588fa0cc6d17d5fdfc9ae19890ad032",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a10065b8e4e50c003062c4a1a6cdc25f3e893e52e86a46ef5a9ba8249870598d",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "d16ba0112da8416c269c689351469e7af758d1635a04b66af09479f264d54012",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8257b74a976d99ee1d1cb668baeba8d8c7da378cbfa0a6d769632c946a114021",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "12b53d2f7a927684fd99da71110e2935347bc68f94001577a7cab026c388362c",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "f6ebf4dc2e0bf2885f027bfa489801739363cb3a6f2fc8102e36dcee5ce10415",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "85b6caa9f809b255f6d86a5599c58be2b9ae183de8541892c679e74e4a33714e",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "96566089548a1977effbf6a97ad12a06c9440150bdf36e7dbae54bab62db663a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "098487b17b2de9d9587f7b3e2ea36bfc5cfdaee4e18679edba8c231e5578378d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0fa059b26ad0ce692a9b82ab8d7971b400555f78786826b9946862b3b4aa8fc4",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "97f055667e170755bc23eacb77345795a3384ab1b66ec584022e76e0fded2bcc",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "91836f39a1ccbc2fb338d0887fc32b0b0eb90fe8b7239fc1c0bfe4d381ac356e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4816c8bba829cc68658f7bb49e1fcd74a0669ffc9651cc5845f66f38bf629600",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "bc066816e61533157624914cf2d91bb33eff671638a4fd3591ee8ec7cf0c4f67",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5a9fd0fbf9d40945f30e7e8836aad99e553533a2667261fdbb174dd8baf21945",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2438961b70cca8ddb7ee55706249936cdc9eb7517f17976642cad8cf62e10f42",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "eb3a0e8b4ce985d5f4a95d01ba5d27b0d916b6c9d3587ed1d816c54868b6b868",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1b4c0c8e2dfd0c1276a7e39fdb87b86f8021a72c8bac09243309778d0720a994",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "437ed23d1a90043ef1e62e88d10752290140dd54288c9a222c16d2fc8af4dca8",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "60a1be14c31069a489bd5b79d040805fa5c328416d1133117e488c8bf959a184",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "086eeb2daf93f8f7a0a2e7f6a63aea61f9b25c0379ac97164b275da8e38b1f14",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8b1a07450e4881084e6cdaaf487150ac31984e5c2dcdc60d5234dc8e8793759c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c97b2157ad0ce96f849fbcac850329d8924d79fccab704dd623e22a5fb400144",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a2fbfdbdb274dc556c498ecfe9ddbb57a6da116b640c5595525d36dfdf5cbd9a",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4bdaf6a1db5646149286562b6ae64125a0e66e8e41eb90c1df8c2c467b3063b3",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "e5b044d6d11c278a2306b55b991340318d8763bf87c7a039bdc7744d918372be",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4a9a27cebf7ff4d11d819195e827cfb971535405a7feebbedf4fd91c3a595583",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "bf25319abae40b65ea9a80dde8e5021510e292a61a1b1215331526ae0578e8c3",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "cd13694831d123d60968c8b4c5b8e1d1d7b68dfda5b1d05805ab41418267f40f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3cce7356baed67fbcf540ac6ce0a03affef9b7aeaa03819db5bf9f5a6e2f987a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a131f474cde85d509edd4ba8a1fd140d1112690d037b58a05f0d8cdbf73d55a0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "13df7cdc7fb6a6066bc189ea57b247c5f7e33d0d874389a23e93ddd749ab9d8a",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "fd53ff2267426b2e49c2936042b0a70eb72c40e6a1b335978ed8ecf391f1ffe1",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "8a1e7afe5a7dce4c48c45a99be66fcba629a5bf5b4e3468f1bdba4309e4551c6",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ecebd28d2d231d383d7a6ca766c29a92ba57e874f9452119f2e1a60eda9f3dab",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "db957d65817ee2e6131ce0e3ce8158069cf55829015a9340c4b3ab93a531752d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6d7cabece03af8f4f317555a85f0c883053fced49461e3b01905f421f143d537",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2f015e73dac7a33f3a63d7b5a2d6bea05ddad7e14cce08d556820d3332f35fdb",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "2a96221300365fd7c66719e34fb7fb0a42577b230a151a9aa6c375fdbda2f3dc",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "cb0d1691419caae962cec2e6b05a64861cc75e78bba1f69a4ef50e488ca6dbf0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "07836638883c5ed0620b45fa8542c973c9d1cc38c533f90f4510972462f1c365",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "6708ee7d0a373d7b367cb9f2ffdbcdb63fce4d58475fc06577ec0266a1bb070c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "26cd9aac80b80c3744c991846e9869c08ef6f512f3b65cc42f1c074673e7c34b",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "aa8a4a032d989f229063729f40ddd37d93d02668d1be11b69f98a0e065d912ac",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "66154dd8c990584439f4b0c960e85f92ef333269efd999431c45d95fd6b9fbd8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "140bf2cf343e00c43cf580af9b39549715cc3763302a9e8d3ea15be7bbb55603",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0540cc5efc1f1a7a67898afda035caabaf2f79b620f35355aae1ae2ffd62976f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "99720388c1c30362924e61165bed283154eb3f771589758d824730571b1259ac",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "eb2500d5943dc69e06be30e6893ce43d043edd86609ee2859e923405078da7df",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "91e1fb2ec5b58c6fe8e9e8da75c2c8d85cbf79c6486a8c65eccb4dd51aead0a9",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "5a4f9331144380b87820f5c4820e0aeb005dbffe2fdd720293bf6713254df020",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8e1030cca41d049d37a395cf873235d9c79e964a18ab2be0411f426f98f6fc99",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "26a5464dcf0958db538ff52c9254da1c16c9eacbf6317f916e76368e80694582",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "aee62e383c31e108169b7d675d3690295871244e271a528e81b7913bab524c29",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "121262fe55a083e8eaa19e071f2c3c76ed5a673e7cb975d1b708ef2a60d4de36",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "9557be91446b5f82e298888b2d68b02273f53a5ef75cb487e7568788c5b3bf0d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7cca27358e1b80bb94dd62abb99e0851536d8465ca49879083d48e0c96117688",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "9656865d1b4c36267a544791a34d65e40bbe8f33740caef9f07ea864e12a9cc6",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "7603cf2d324ccdd990e6a96020fa1705d9bbfd4ff419540f0ef1be6136c77167",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "69f332409c335e53a07672fa2fc1c38897db8b1e285cbfa344903956690b9c78",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9e4340591d4a61433d1fe402eb6e3c4659a3c4faaebbf1f2a30b8eee78754b36",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "53b565e3e501e0f827e53bbd727e7ebca914a00fc644b5218a14b6e8dd469b47",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b5dcd8b77cc9480257c10c4e692b2197a96868a313f800c6f32bb873de522bb5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9d852bab13802975376dcfc9b64e46abf23a90a66ac0f6de83bc5cad08c3ed94",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "153c78a5907c0129285a3110a4ef59601a43e1aaf8a431f8cc8da282ba0bccef",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "da2343886a43ab23b60a37537c9df2af7b4d45ecaeebac7c633bd33498e8527b",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a745f04edbde3b9e87ee7e53559f2c369f255b84661f16c8b47da403d08f0640",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9fb96fc3a11840039d070af2160ce95f1e7f526531a09a46b2e176e02a0dce78",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "503451d4fd019c68eca2eb991218b0e1bd725399ba1b7145bfd6f7949a0e19ec",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "25c1faae5e0e57d1667d1bdc98d5cae53ac20872f4612df4529bec2810f4a8cd",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "763930f6ecbb03bebc73654fe40022d39b17ee92eed245573c4fd6748f8bff56",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "efbd05bcdb2538ac5fbf45a4e0d86ef07ebe3555bda847677486ac30c0400dd2",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d4cea1ee0af3bac4869c8749f361fafd7622f8a81d49f5720c8813c12d49db68",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d50408200aba33d8f4db6a0e6e9d60a088c9c1572fa31bcffbb7d32d37bdb7ef",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "393b5fca1a29624caa7adf8d3129f334f8f86b87457de72fe84abd9e5561f5cf",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "96aea9809c4cbb911d751cd2ecc44aad160aa97a162daafbefc332bdffeb21a7",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "774ae7225699ea27f01ce121a391093e04d063f7a12c7719c2d34a2f86a1ed72",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e2883716dc7368e4a7624fa48d79c574d2b12a37a3d3bc07742aa24bb9e374af",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0bd4cb0c7f24b4dcc61bc252fa81b75d14e19f7fe785722989137df1bb121715",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b1ab83a87668a30e691e6b39c2be5d09392c6a6096f04b6b9f65bddb90346648",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "40d6eadb10fd6290b4f57c1b367419beffbd576246078e0da670befb979cb818",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "75bc3659819c0ce28913264ff4ea984ca9afa2971803cfe4a2b13ca65e8abac7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "274e2e6123108e2b5ea52bf8c37b017ee25a8831c40fc4e5601d764c1b0a694f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cec0fe82daf8f85b925a52565d285d8e6d7ac97e10d298231af47a984c6e66ca",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8aaa512ba7c9d153ddb982587c3339a434b35f2e08a7dfd6897bf4f728beefec",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b8507ce20f2712517ac4ca7d4d3342e46a546b00b1d0e8b49e49164d0fc126e8",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "926ed24a9c63924666bb9add313413a70412badac70446d0c81cdcb8111ba9b6",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "cc1798ab65689680befafaad0044344304cf1202f20575687c35dc626693356a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8ad4b8b7eed6f64a3d4b6db0be459ae234f798aa97bada4999c23ea4cc0f556f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0068e65f7503b2f993bf59d7353deb77f7e13c32a53dc1d354e792da291d9452",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "dddc3ec896e9404d5a81c4f7deee99d8ff273e070bfc3fb04a8d604eb22d290c",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "28efc5cdadb1c20fedc9b248dbe087d39979ed946917f0ff7ccd38b6bf89db13",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e682d461b8fda60fdf3aae6cb8c4244825afb64bb915f44560f979ebdf58dbe9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8888541d88b8d0b40bc0371be412b5f033b07dde5520e1760fae139ddcaaf248",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e432b2c4b6c461cd74465a1b13ed144d12fc3ad26f6fd3925848dd0b3c9b8204",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "adad111c8dac34d9d5cadd59f6c638699e9b9d5cd871604fb13df36771278641",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b34497b5a83165b138dcb03df169799579087440e8ea64910416a145c1d5d767",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e247ad4e57b07344a23d5218da6ad220a40f0f28e591ede364bca3f6c4c311ac",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "1494fb89b2dda1433e07ddcb867f0251cd6d5dfd9c45e89019f8ae6b0a1b3c3b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b4590af9672680db273360ced919e90d268a5fd4f647cd4d71abd8681bf87b60",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "1211ee801a9649a71e5432ebcae494cc811a22bb138490a9b779dda4a63f5577",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "d5841cfde1e5efcb43871073a5da8e7cf9eab02d4fa09b6f823cd51151a85b36",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "181cbca647482a37d72f948ff7e271becc1e0770253587e15caaaabf0cda175c",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "06da1f779e171315f236f9adc3891ddb79f6f6dd6905d8dc0fb960b87a9f41e5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "858f1184172ba74a5e0e9b9c31bd895d38efde533bc614d51964fcc8cc786a09",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "deab00d1ab861eb3cacbd415cbf1a68b49441e408651f9726b75ba26d270247f",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "e85641cfc23deaa7b2a98a13ef2cd72dcb1d7c0236c7c4382a5d5c3e2e29d170",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "fd59f51487480df3a4f0fb3b413ad75ea2c99ccc0d937ef18bd79b787da8e62e",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "86f84985eb5cc874ea2c9f8665391478101b243b0753e2852f196f0611b3d5a3",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "61c86c6f3b8f458bc9ce76f4d5b1aea1a068376adf42723e454a23f5c8d266c0",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "bffaea0ac0b1ee6ab3bfce3308a3780c1e63fc430312cba2ed06a3198afdf8bd",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "df7b60c48e4cb814bc5c70fe6bcd242476d74db91754e731fdb759cae511c7ad",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "8fffd924c0d168206219c8a9a642079d7e4965b5f9d723b1aaae1938333c0041",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3da57d9e5d88d5738e7641c50c11a7deba46c190885714b5f43a619f37489d82",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6bf8b2c861bc0de17d66270c5937e280df89468aefdf87dcc4a29270eb6687e3",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "50408eedc668e0e26655878aaf5e0595532a5f93b999a0973d7ff8c689bd0b18",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7f75c09f655e6a20434bfd48f4d2dce871217ee2dfbb0e4624bb38360a404596",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "c2e486efa0e9b56e0db631bac2f086d385b60ae6211e34ce31b4422746ae9255",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "860875505ff5691794f4ba6b54528f10bad8448b55d688504046a5aea0ccca71",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "ec828227329b1652818f2d220ae65586c5777a6396a79cbb54847e5d604fed1f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "79fd6129b0da5bdf0725527a8fd390469059ac307268e25da610bf94cf84b325",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "d70a3e2762ed6b33ddf77103ddebc24d1af954e55c534909211373c0257bf76f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ecf046bbb4c6580b34ee73107d88345f612d32b885e6993d957acd54d6a243ab",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e8de0373122ffe226cd04a4b8471fc0ca08ed685763a0fcecc1d854fd258b30b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "e5ead4348a1e5e5f996ba81ae7a99f6b6f6d61bd1a4fa78242500ea8913749cc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2412a7d5a977b8920fdcdeb802fe16c2569e86001fba9726fe45c73a8a160531",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "92ae847e007804961e6365f42917014ea9cd18874ce22a76e8e4db08c0cd9f39",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "636eae2bad2ae90a902985e96b81cb67ad4d25d86f13654fea50dde88576b428",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "96cb854a53f1acd507acaab38b676f8413c124e5637a4b45b091f0fe2abd8db8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "11ca022f8b6c6e0e0f1cb26284146967855dddb026d7edfb865539378007a08b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "47e842260184aaae5a6666bb3d679aeb5daa179b3408eb6400e34145cf71c62a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "824866fdb9d8822b0171bc6e242252b7166646ee2e714b83a0d5c8535cf8697e",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2aeed4d46596daa076436e0a09173bf6657eeb1fdd47f2d952cd7a2c9ef6f1f7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f898ae56c83c187b44364c8370d7a52458094ca400d7b3afb4b5a41c6c3227a1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "56f09042a719ff1816a7fe9b08429954bccb3e446ecda36c827367014d8d4db0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "adcd819b2f41ba20295b7637e7afc7c9a79e3fbc7387c08ee46eee326f5cf07d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d5eca6bae7d27f8177d0b4a67faf5beb9e85a9a10f81c9922af3962fc6189de4",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "fd3fc52583f5c7f5ebd9a8b55f4d8b5ea983f7a24ab509e77695b269e90a19e9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d61c83b856163372f6a235a3eabec6ba42bef75e30f0d53cfdc99bb3c0ac3ef3",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ae648705bc2b668d1949e87f86f3cbcd3c536a6c5a71e5366cc366cc2eca5d96",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "810fe79cce1736015dbbad39fa12823f3e9c63bb3a828dc6691c7352cac0a8f1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e6a973fc95b679baac84d6e05bb10886e0247dc006ee5f70ec939f5236af4707",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0aac2a20909117d67556a3cf66c06fcb847f00ea73189cfdc26ca43e0a66ccbc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "470f7d1031212cb539ed3b1055d04068ad81d1625a3a14e469ecb7c942a1cbaf",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2884b621d9c55377aa2140a08d3815fa7c2b5391a4f5ee8089ce9221afe78a40",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "189fad969288b2a3223fc0b77cc1abf91eb9eb9acf121f66e2f87ee13b5441c6",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "69d8976085a79014b002d32ef58836f7795997ab63a5b14781785e61b8d43780",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "73d7c70fbd85ee2440fa1ba3c3ed816ca8a54af05b3923704258d2690e49f808",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "955e3c43cc74917c5bd00d8e403c8de524ff3d72e1966c31d2017805e6713f5a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ab34a47abb96a00d2a1e6eeb366ca5813a2ecdc6649b0355525a674f80407110",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "17b1ab712a45603df936b179eecf927b5ba669e1f92875d024348fae095a9ac4",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4143a875d2273c9afd1594ddaacb613a31cafbd1c17aba97385e3261a8a9af61",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "79ecc21a39e7eb6226bfa2ab6f5ac23148a09cd5225970ccf6a146721f3ab91b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a107ab94de921b47aad30c8667e566dd15e01c7e66572c1d8f7ce7ae20fe5dbf",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "3e6f2ffeb684e969571f89198d059f44b96614bcf6440b87577ecf25ed89767e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "daf321c2e08df32940f2ac826d7e3d5a6188168e505cc706a0f5e31983432bcc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "07eee69efcdb39d6dfb78295392bdb9dc1291a39c0a14b7b5fd0bc8ee933e5c5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "91caf53de9176840523f306db357f3e870aa23f29c56d02ac0b2fab5582cac29",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2adbe68195849b438a3537af6a1bae4bdf8c295c55796d252fb659340aa32cf0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "bb29242d8df5c9ab166c6a416c2571d901857e8c82190b15afaf1d06b0391652",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "d55f96566998050874bf78243b4060865f033d6d5f05b6601ac1b4b4410e5396",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "150d8b056e77d2cfa3608337febdc7f1b5d91a4e86180915578b494a15384264",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "b52ada8c5b2176748961eddf389abe6e04f9bde3e023dacd974c893562df6939",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0e41d37e9e47da56e314e69ccbcf8fdcdaef4e1b70ccc5cfdcb36a92d3297dc0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d37077c954457d9843af4a5d71c82326019b9c5fd712b0729c6c3978a46583bc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "dc54c335d78a3bc2c3db9f4faca88d8f8526e9541298ac3ca21af879667c8ca3",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "d7a7add16542f362dc82761fd6557e47ab446c1c80df355fc7109aecb81b46c9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ac0e40c3e071630134af381529f6e95b7dbf5512dc96b1db0f1e6c82bc17c6af",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a010cc33598087ebfaf7dfeadc86201477387ec7dee8ea4825b660e9fcfb33df",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "831f9acc4a6d32404d61167cd9451bda3f4f2aae2a948c7d520dd5d5855839b3",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "162e6485e91eae2ea1980120b34cbba6849357a5eabae8ab13045d96b73af973",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "98099b3edd64a60472c3706e450c6532efbf47e8601933e8919c75526d3b22ad",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "70ca55e76323918a118923e60bc3d3233be3b11a887616b098b549365a8c726b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "ff0281cdeec4d7f1e9d89b05827bc233990b3396e2dac6c7be9cd3da76e165ba",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c59a6ebc5cfacff53983c507434387fb1b5e79ee32a778ccd58f8f6c376968e5",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "dcf42fcd42d20c2086ec554f791691d2dbe4a6271f3b7ea56e625286e53c1a5e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c2457025637c2538275b1783d75703f8433d83dbed83334af2bbca093761b018",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c4642acb55360d896b0ebe48111add0b4c18ea81be88a5951553c2cd9a65461a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "39cee6371448e3f7687e66c75602b3f53c6856122570c318507ea44b84faf141",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ede9f2e443c48996f4be78d72b14884883c3929017e740da3cfa6ee38b8ce212",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "506db13ea58b5262224493e79a36effbdef4a41be0add38dfb0c8582da37e13b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3435f0c9841fd1d03080220e746c9628b1f31410f1f3db1382b157cf7ec7aaa8",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "25fdb6db656fd1195d59da2716ec9c09192968733598036944c181e1eccd719d",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "756fc7022a9d600bdc070efcfba0589554d89e88c005b9e8842d5f66f16b061f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b6025d689e98bf97038a4dcfc902c4d8f5feee4bf5b41840d3c2ea2fa91758be",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "dd25b98a9bef4f8c51e32c2068ba3c7be069890f9f2e5320acf85bdf300a8f7a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1d46f8abd22ddd6b82ec3608778bf85b988abd0c578a741e86b0d7771bc0a3f0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e011da3fb45b1d7e4523fb1ed9df9be11bf69c84d6d2f032f55f1e7ca2d93576",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4ef999993528174a18ac4623dac49c41d65e1eb2c6167e571536ca4dde746559",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "27fb9ea0d47d215bfe6a6d12b826f0143f7b934f73d2ef38542187c8cf49aa01",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "03c1c5f4ad2532c2b1c3fe28c9c7cb4cb35883bc37278e32bc20c0843b57c557",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c826598a8043c74a2581bf2888e3d1b15ca36dcb4c84f403d83932bcc365e233",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "ef788da7c0ddd668762c12e80809e885aeea1faa9414a2718c69388a56594636",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "bfcb44b996bc2b2e945decf9bb95de5abc018d1b9101cc7971be397023cf178d",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "54a4a35d7ccd20061196a2631f19a166af463f6c3431b2ac5d10e536faf564db",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "e6fb8e891633de4d2d69bf1e7f78fa1da06a651713a48a2073b74f03cf979cbd",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "12c30556d112e3df6f4328c65857ab04c7023af9485a54f88fb49e090ca28821",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "27a57681169e5415cfdf2bbb7832aa4712da0fc80fb07ff3ebeba7f7ba96a000",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "ce98c86c26a28b9814f9bbe32dd5515a27f90a78991e49473f8ec99730f727e5",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "6698407ec8d79f64947ac018e099751fca42389998940ca3953c27fc27336d70",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9afa56cfc9c89191d7c278c8bc6787e3978b7c69a93052ad537e759c84b73404",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "7535c453a1230a2f11cdf3096d51ffa8b9276a11c3726c47053fee1245042da5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "e44c5fee804c33304785445ecd6708ba0af6257cd9c3afe59a16cdad116c535c",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "b76356612cd66c06d1de5c7f7292c7a9eb764600dfcaa6d3a440223aafe1e83d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "69c1cb0406c7f09aba3491c32e0e5089e9effc3ad6357d005ec35f27f84edf32",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "64882ff889be494d700a6d1e9a47f6c81bce90106fad489401c3e08130a14c70",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "62c2376becafcc85f2ab31d8a3d64a0c40acfc8de9f59c3617b9b603409a4189",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "0690d4c293aad446e20176d3180581c8694cb95eab92552c3616a052487ad8d9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "37e69bd66a66c6b9e7b3fd864dc1b87c33694c5ef07092c14f3de61a773ace53",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5dec43008f3a1c12fb41f3a2e1edf01f082b13300cfa32c129265a46d014993b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "be439cfb04e682541e07a5226d463433ae850579bf7e87e56b449017031bd477",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "afbb09065997a8bea99a3623abb94edc38c7d3dadf2255f98fd741f6a726a847",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2d21580b6f30a525c7a99f8cc0a8c24d067768fe0612b6739e9a6c9de5b2411f",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ba18d117903fbedbe006abce62b50276b1c64bea8fdf9415f5c8c92d73d1b03b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "b3034ef8e15cbff26f775d5a78ddaa3c30c01133e32eb7845b38edf370b8322c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "7dde029c46bcc604becd61be3bd2a1e352b3b252e8c6496ca4144f279e070f36",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3f61c4777b9d1f741f80a30e0068ffdf7d306fdc06e5322e4d63915a17686a06",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "07e1dbb7b0d48a73a70a5e0616302d5cd1c76ab39cb91192129b29b21ef37acb",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "445612b4369ebed8d7ca5448bbee5992725ee72ac4cdbc0851188317c6e8e29f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "421eee83a694fee310f996c1b0596cab944e9b3ae9ec60c777f9a627f118ae83",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e0b75acd15703994ca68e826785a22232cfe838cd31be4bf234fb47672617db4",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "52e98cda6da9aeaf728e0495870f4b2ed9217cc12daf787f7545da0dcf16f15a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d2cb43cd4e2a75847a9321026041a4832305552006e3f2f24a2e716e593390f2",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1161f868ae2f62c0ccd9d1923016b6c9b92177c229840c4a2941f971993f1fbd",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "afd0f215df87347386853bb789431a6ffc250c478fc237714fd33204759913b0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "3460d18334d8c61b50904348c257f65bfa47679584ba637d921cfdeccfadf236",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8d483dff47187ef294398595df5d96b7d42daf58b835fbd6645fb7993cb06cbc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a58e709ad9116fb91b757bb23ceab7d15fd509414527b77f8125e742905e0efe",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "366d861024c999d8b2798a5d58c89a143f9f73bfa3ad196684911ba477e45803",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "695ef2e1e96eb3748988e4bda9a75dab6f8745deeae014989180b6ada083fd50",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "8b81679a872ce6336e0dd72a1800f4d93f40f295dc5559768d78027753419e42",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "1e7054ed681d0ff825abd14c44a05eb879ac21c602abece33a934b2db05ca193",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b574462a0da3ad1ef556fecb8d6f1762197874c7550c3f3172819499ad131133",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "2617655415c72aab6f692c20f5853a4eeb3878447f9948a2810a2b6b802f9dc4",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6f88d6342cef2baee47478abb3e9727a6072032d50a6c21048d4ae4b8a77627f",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "0f1db8b13f8be0466eb3153ec97ca15c6432d251c9967739a72d29508cc94191",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "cbdab3536b8681011a89ce66bbfc4e3936af882c52039c09ce9f195b4176589e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d44015c9bd951ca8e7731902665735fa29a5381419e4529e6a014a8dca7e1f59",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "2fa5ff0a215fb35e232f2ab999cbff8a7fab4d7c627b6d4fc1866b1d294e7823",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "60d478d86270b8efb4202007727448f1745f1b1436467c0e1590170a9efe7c7d",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "53dc9e9dd3e0bf6d55400426eed4c756e96a4b014b616d87a8c717b89a198bee",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6a26a64b86f931adfac18dc0b5c0092988e54046f4653d0ca9ff1221cb443821",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "bcba0964c4c38660b18011884b346a8a26cf5229d4fde739e694ad434551e8d9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "e58f9e624157fcdf07c8c26ec2a5e7f9acde463e151803d729e42b0218be7506",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "319a55d494914151c7323c1e37db7482e05439f9c9bc083cb599b55f36a6ed1f",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "53f3727f9d0b0471891bc0374789143ed250273427c095b6e0bd0125e3869cfe",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "e98f2dcc9a57978f545d62b9b89ea173ee581a3d6e577ccb55852b2b2b2525a7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "d25b53fab83be1854621974edb806c80a360aba4cdd54c925e42f35edb0f3196",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f3a740eea9329f7c489786a90ad20c52e383ce40b99afdd322a623648f6d28c1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a99069f488384a4b12f72f14b268c9a33637006a4f82fc408f6af50e4fa51ba9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "73252d4f8c280fba494c003f4ce132ece68ce126a5e76bf57791c6d4eee010d2",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9869e7954d51131c87cf039b2d9a2d38aa2907b6f2c32ebaf9161dbdeab33578",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "72b9909da9426335f2e541179cba45a7124c8006d972661a40f89677b207a8c2",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "3f178ececeb5aaa5c18d393295929e14ba998e99abd39864fff94b98fbb379c5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "dbaf4f192198bd9c850387ab6ba5288770909a04f8fdb4297d8f5d5c1951b23c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "39efb198744ef07c368cbff4ae42070ce5728e40e97a4141d70d953b1c3ff799",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "07dd633d445fd2508b6d2f56214fc3e648c08638e23177d4c609a538a3483138",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "8eee59407ac8cb6b19fb03fd308f3e3044024f70d316598d905409e08b90fcb0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7563854b07ee499063ece283b107623e229633f0dc402d30d5b5ef44ba0c7767",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "67b8ce00754e8309b20fc2d4279766279a45c2a0dbbc0c4878edb874ca5fe5c1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "02f1664eee02e5efb49eaa53353b3ac9c4e9bc3a15d4167ef014fb9dd1145eca",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ce76cf41f0eac373cb23d80e2216e035f1d3fc492d60b25d971a1a0d71e01532",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "28516f15924addd0c8c248d402b429e9d5b23382925bc373ab1400d0b8fb7109",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "fd72eae585cea4d48f06d38d1b9680aed1f3a590a3cffe10ca02c8035a98b7f5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e858f2f740f63b34ae6788eb0db08151714c0e1bb3193b1314475b0fd36f8e46",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5e3ae99888d3ecaf15dff5bbde31359605569b6e8b0bf8460b2075843cb89e0b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b58482634f57a1f53b48d5e6f81caf9d052424d79004121748efaf050c0be6d1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9fcff4265e4c620bd24554c3acf62eec8e651a88525b3ef68f1e86bcffaa1382",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "063c4561b03cfd3bc49e01a3386193cefbda56a00c6af12b8e416ac25509d070",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d7d9977f7bfe03ef1accc7b00695f15359e37ae36f3a8d4ce8f676aeb5fe3330",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "fc4b34d9fe5735536fdff8e548c726a4e723d0a260437891c97055c938c90664",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b2904816d755a2ce953ac3d534538afc50be92f654536fbcb8d261a1c296865e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "87c1827bc6b90f36a8924161330391ba2285ff3d0f9fc59248cc344a0a41e581",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c572d2892a62a15cfedad0e84596d568ada389dfba961c0aa8559199bb405906",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "fd9354b0ff8b31bf72bb99f899f0f1e6606ea1703833ba45938fcc7e09e82bb5",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "c3d8ee5dc379c85d43755e08783c284fce712afe686d3dd03fe24f8e5d0b9534",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "16b721d7a86e70b856c89615c9708dcc8de82e9667ef928f770d51f86791a04a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a10b30d7e31f604981ba690e607fb52cd79d2e6339986dd36ea0ed92b8afbf6f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "654d183d5d0a69129cc3a5387d85a46f258e16f1ff156b8a3ce0d8964da90f3d",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "4028366e5e07e84587a02b01b44ba5965396c5455ea2f7231be1ca31d21201f4",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "f6730d41cd2cc1c5d49faf0fa0d7b80065aa30261e98edd1406934538b3f4846",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "ce164cf82acf92156e9dab903ce4274785ee3560e329e64d86727d7b756a0805",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "74b628961625f1705ec847253b7785be69e0fb4afcb1b826bf9e7bc9779557de",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "6043afa7d91b86d80b5d39ccddac13bb43bbc8f467579a7cdb067c5c55ba576d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b135f0c04f9652a8af43b31dc43cfd8cda1af626e5973c72be9df728be0c1053",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "1db314b666466bb4b5ae5a5f46f9f6dde3e8301b2833bc21689e6dc4cf8778e2",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "e0b68afb32346bba30fdf83b983d5259cb1c3a793518a438504397d3b6e6afbb",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "a90b443ec0be7eec9598f3559e6bc91e27e70d2a566a0600991e857a0e386268",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5ea85476f7ca5ccad92d6647f4dec27c3b7c2ba997cfbbc0644cecff87b253e4",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "77c10e28029d915313296410614bd1a2d2447934f34d501654f3b6b2f1a7df59",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b4156fb5b214ea71037403e2c2873e58b1a93c4157a90c853ccc8a4c38261c38",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1170dfe2232f90e6a740b858e2bc59c2149cf31fadbb917135a45adaa4311ba7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "a348258aeb6089db024387e146413ac3982b987eac754a27d72b7c6b9d8f1c53",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5713c36ccd4ba290114652234640abe48859522667ade634c658d858f21a2a8b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "01cff98998596a80d9fbaab7836b96a00dde337798d771da7024c361eba4afd5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e57c1808054b0c8376d008594b1858b70816df077b3666dec970a991e843508c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "edf095c3410b490a6d4c7acac77cedb7e0687e228e19e65e6b578bbf12ed335d",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "6ae7f3b28989125d885cab71c14624a15765a11de84222820f5b9c248f1a9f99",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "8c6eacedbd78091f273b7c8fa907e2c57cb2a029b0b834d783ce3015119beaac",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "b1e9ad6909c9c6ad156cc70a6a65e75d6360bbecbd41fe9b18283e9080366669",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "aca65e52f98b8566bb7f620e8597858a06e5cbacb96157e88bb19f5aa1f06f2e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "934a5b93f2b0babc9e075878aeb975d510783f32c9e02ce78ac5b8412ede3640",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6af7ee087111e06e212e1c7ba3a88263b1b7ee880c509d61cadbb6362ba2667a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f4c72decc9d3c7bd864ea2b3036938bc6aeb28674cab73010199c3dd03c925b2",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "39e506ea469e4d61bb6ba46fe87aaf894dcd3fd67ba148508cfc259095f9f9ec",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "9c93bfde04eb17cd315caefb3beea27a6d018148a2d2af961985c0fae1a7afc4",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "da4d474cb99af25cefed7c07545d5531d9f0928fac8bf3af317aa3406fdf642e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7ad1c801c97f9b25f13baa5d560b6af0edc5d81981583606b71b2cbb2b54b46a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "295286bcd14daf9e4bd10f7ccf0eca2b51ac93fb38bc29e0deb41c01284ff05a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cfed907209a7ea7fb10b75c87c15dd56cc5d992f11b052d1915a9cdc92715cda",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2f9d082c134e25028ccfd515919c7ceaabbc77927f979e69cf713c5ed40695b7",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "03b8c783b76566e597ede95a7478369f0ed4a23706f2b0e0808dea457a8df293",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6351cc191d2d7c5b0c5fafc0dd2fa3527beb1e65f689fe68354909cfd6c25b13",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f2afe1fd9db731470970c0726cfef29a275b15ea2dc564335474da0798067b89",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b7cc8793326c761a08e1a3b2f227f6c1460d5a45c6630c46947bcdf5481f1763",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "53a96f5cbb63c58a727ad7285aba899cbe3570352e27767b836bd8dd508deba1",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "df036d8071b92a3b23566dc5ea6b22eb2aa9342db997f39b41f2d9db376c928e",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "fb6a770a9fc463e2ade98a342ca917ca57e47881dd78533537b60a1d6d1eed65",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "98c0d0dbc7c1c107b88b8c6be94ff575fab1175127bfb227c7cfb0f129c67fb1",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "dd64820d3c36b2b35874d20da3bbb33c3924198dbce1211e59bf8893db4c2886",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "9032d85d59b0efa089f51ad52db90e64fd3a6e17c2c807a1e3b345a83a13f38f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "35113a88df5a547757126f9e697e0f69a7db707802df5ffad3055ea8b7ba9896",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "f51b9abbfb27f71f17e5434b66e67613e999146ceec81632ce9f58629b5fe60f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6f5974f736ced3a13d58f671399f9a707438664f73387dba583d7cede23ee6b7",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b1ae6893ef1b7a5c3a2308f98a6325ca84f48eadce2b1943aae45b16d8ec7f48",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ada337af45f3582be794dbf60fc0f1159276ed6d0bd670f8b5bb3c47216357bc",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "1f4c74c4ccd93e79dbd65816376345d9ca431010e918d550115a3d05b1c23c54",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ba8d7df28975063b9c86b84d50e7e81736c2a8bc7bc0d3339d4c7e58bd660b2c",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "15d87565ac757a685582ca35ce71c5ff052f748c4e4e3248f336a6bc3fcaa7f8",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "2646fb2c6627a7decd3170a1bb08ab22d4272743fba3ab553940abc4ce0e89a5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "dd538e7780d3fa421970306ac60463de7480291eb149d6b0437eb99c194b3f32",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "32504442d48b7f143dd35e221f3e46fed835d4718dfa731d1cca818fb453fe4b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "9fc3b59344bbaa44089fc7c4db51455d005076e8239979dd7dfc5888f8c4129b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "859ad670937f3ec6261edf4390495046f4bb5d10495f08ccd1d9839316b6367f",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "be5f552e7740959824913eed4a2d9a2622f5a388a1ad5c13b3ca849b30890387",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "37359e47ae7d04fab5ab4860c966d94f1ffcbd58ef796fe2c2cc08f4c70ee62e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "05ad8b373ba7d412fdcedecd754ef74fec50fc55e292d69bc2200130a640dc1c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "856dc9bcf08ab0984708f205673d5087bf291685e1bd229b3251b622fccbfb0b",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "3ec9682dabedfa80a82a33c5611c130f3fca2026e75aa86f4a15871ef9b97801",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f4d3a17acb0ba443e3a5f0817101282ae6ca418aa234cc75909b8f3b6b26ac57",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "006954358d71c21db66d9d5ea88b5c150ae96e69fb8ed7f67ffb96313b85a746",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "07104c0a88085452c2581da1bc4eb29b312b948d7bf99c2231dd3a3c0157fbfa",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "d968c39467525cda1ebae85759ed4b485ff4a68f65d59677ca03df8e84b2e23a",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "cde4c799b84b4acb2608a60e2395fd2b1d81a6c9201d106e4cf7e9f5822b3015",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "f00cdd17e0c55dec84148d4208cb924754406a46e1938c42e43d0935c4c7bcdc",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4ee827095431ee2eff5c65ce0bde8d4a8de9d06c95ef7f67bba8d950d6ce7596",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5f1497202fc495e2da12cd49bee7d780a00415ece5f1f3cee9e753c3478bf163",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6cfbef77b6336a55d0a8f6ba149872b272e4f65adbc21f8c63cf7b2e48bfd9fc",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ea7aba5d67fc2be249e2d07d4f567c40d2621752b51b840ca571f0a4d3cbe4ac",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "59db29081ff35152ed695e22358361e4b5e604abe48bca58e0552adf29451eee",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "2309e4bbc87bc2bed5c8a5199a90cabe4431025ebc056d8985d533014a4c28e7",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "2828084fec87625f1ffc0991f5ca380830e8ab9dbd614effa3a0f40cd96d36b1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b2990b59c2ed25883840cea2af54ca730dd31ecc8bc5bb2cea87430ba2727f25",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6a972d98e16b1b73a433ec4ba8df33d92be275eb3ae4e73db45d73a59612b3ea",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "afe0d76abf82385d8355752a719475dac3562f825bb8451ade89dc0db6c7bcd1",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f27d757eabdc7e146ce7bd5e6a2c2ea019305aec00eacd9beaa6f96414a269e0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f113f24f2d977654411a7e3bdfac5668c45d9e7395ecd94468f6f28890965811",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "e5a469695941b90f483d9d4a5b51f95c81ef38927363c324513faaa882d2a796",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "5a7b990236bb72c689a4163658bbe728822cb724095bf8c6a792f238ceab2a96",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "69880131605dd02f496a02f44fdea920b962c25aa5d40a480ea0af287b2935a9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "56a69eb6b605c91c8ae4e9fe3dba6040d362d48a5f9a18a63cd190da1ec6dc97",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f73ffecc86f6ab2ae1d927774ba6d497f1a9ea995c9465572da505bec1567898",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "582dae8350bbae65bee0beddcc5744b6d21d00dc5519d1770e6547db1365e982",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "02f7dd865acef0570759ffd5f9b60cf9998f11e9d88ca4a4ccc4039aa71aeb01",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "bbe97a9b6468217aeb43c531143a30f83e3f7117fced6591e3eda45c96527445",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "f0507927c5a1856be01129f74807d692791aae43790752d4422f4c4bca687691",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "7e991e7324723f3a5b30f6cbb66249212be7dd5a3c2e0c3cf121234324e96faf",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "72401d6eb818949946a94c7ef06409a53f53ce9cf0af9dae8b71dbbdcd26626c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "fd69c8b60abb71e34c024d9b86adc741a78dc83d4bec2572b6b91abbfb69547a",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "a3a8596ef4e1e7799cac8e3568aaee929a0f39d9646daf9dcb31eb7728819127",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "48078a92ef73ee50987146c40942e2ba26c759e275cbe3d6455597bde516d733",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "c517eb5510859f07d5923921b611571b96db9dbe0a2fceca60b60658027e4368",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "862f6a8ed14a73cd141304a337c46cfd60fc8f25556efb22213b1e13b77873c0",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b9262cb32e6c3c269ec54fb134f86ad5f98d85df8692f77c635e2889f6efd8a1",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "e39625ddf5f4b28320e6d4aef282b187ed94863a11b002b5d5ebcb7f00530dc0",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "e4f665627f5b357e253b53fdebc9c4bba925a27d18b5b8118ee2a1ec702e3f39",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b066792a97e8722de523cdf1ae340ee51c81e1e3b00b9190530b36c34458065b",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "5e33649b45831f9f3ade683ae13a4d7d13b4269be745da399d5cd7d467347373",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "f83918609dc888f01f26fc1b978d20c81009c9c9b7e9feb63483b54f590628e3",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "81ddec16922b31d655e0980d49c7bbcb48f41a999c2fcae28c9a1610947c5785",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "176630d144e5bd4b81281bfbc5f1503e8dc3f33020506303bfaba46d2f190421",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "977a338d0f3474f992ba67a557ac843a6e9aea4a0b01ad3fbf8e2faa1b1d3df6",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "38edf9391be9f4ba63222bb582b5fb3680750231ac4c79ecbe011a10f5202d71",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4dd9a393a3967266187f2b2f09bfcceea9fe8ec2e8b83fbaf0840e0eff9c5901",
+    "answers_correctness": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "ed885e52239ef6a3f47fa1e82f795f681f8c121412d800a667bff02e390895df",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "88d04a3e1e77432ed30680ca899647d4955b1e013cfb609fbf54f6349f6c1bba",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "322a67f85c277f876864b5bc05e9798815b69e177e665ee73ff169c189b6025c",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "ada12db81875c4beddd22a950c8687766c521f742666912b0657bc13955ce2b8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "881d2c6352150221792b17cdd89c03d64cf68998a7a5b33912980a8d1c39d3a9",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6a9eb1478158326d118fc6984d13f3f53865ea176d8270f7f95d3f62bdbde55f",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "6260870d8772449311a1ffa1dbe316953f953b14271669a73c8563912879f400",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "b730e13aa05b883e36ca38d7571847764ea162728c9de9755a1c8bb40f4cfaad",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "360414c1826ef549d1d2cefe618807de2aff06660f1a49b53e39cf72a12a9e92",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "d809e2b01d5ac20a5ef38f38a5944b6feb32cb00a276ca48d3aca8b323552c57",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "0d69d55c7c35e7206b365b9be8c2757714e9fa7b17bcc2c631d848cee1299638",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "78c6c8b83132a204e668d4db7c95c8ca5d8ff644b134711c20a5145750b870f0",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7faf55d2b074427eb2fc6ecb9c4a3da2a5993c885b47e037cfe5bb1d451c98f1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "32ca08bb76d7a23e8f457fb2c887b7449b0b21fd0542513cac793f2f8f46373f",
+    "answers_correctness": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "a597b89fee17924546a8c0a3d6c217f04d01a50555744a8972b79978ea402c52",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b2b84460d2280791c7f2aee527d500d0afea4a93c43fcbc162edb2644a036e64",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "17f71dafaca00872772f60164812b217a7486539ef11b08856cb95fc902dac61",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6c1eb18d2376cb67ae5d6aae80396a8ef5a55b0dacc972c0cb877cd9d99ff0e1",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "4920ba6f23a41f2a4af9beb20a789bdd6ad2c0477c19e57a1c8e403d090fcde8",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "fb3dd0a845dca167d86c24375e9d2615f18c99d46b21d47651534b65940e1125",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "315f5058a452f2ee17afd642c399a611100528cd02f6e50a220113835a1b467f",
+    "answers_correctness": [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "747698f95f48e2c3d68f6bf72ac02ca157c22a642d462c99846d09bb66ae746b",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "23a3ee64a7885ad200ee143206ece11518ff275b7f19e3a77c2ee299aa58b380",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "7264c4289045fbf6b44ad6dc0c1049030494d8be7d02173a1efde70acc48c4df",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "52c69d82120678893547b02b568c12169888a44515dfb4480e00383b58eb7bd5",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cc1c58b340da9182ca8cfa575fe04d84d08de9c8f64245f8520ac1e44b63fad3",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "33a83637637249ec16493965985ec07fd5c1c7e2238f58e009a56a8a4c33a16b",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "5cebbb2f12c0c042216e88f28fe2f15b6b9709317035f529f095e03e061e3e74",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "1cb59a083687b3f836e4acbeae480cad0b870ca23860ced5a2a7a6fbb3ee6e6e",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "ee2452bdc16d91c50aff1fa91253dcc9afc55115af80b62b8ae81f300cd7d808",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "6d0f2f81596ab6812c9ed9e895dc5bd7980edb3e5269d2901304af7da7c95729",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "f14721a211054bb3fd9c8cc600579d70f657b09038ae06dc067b0e120065dfd0",
+    "answers_correctness": [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "0fc679436962cf76072a60813db6a77b2cee1e8c728aa2d70d1a9b1994cb0849",
+    "answers_correctness": [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "problem_id": "3b0dcf6c6cf6e93683e61b2686cdb2ac7089cf13b0ab2da05bcb8d69b35dd88f",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b86d872e198dd2ff84e64662bee39efc93942fb655a1fe6cc30073f1789dd2d8",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b708fc7b2272abb419cdf3222de1d1a6f7ccc293aba9f41dd670738ad573b7fb",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "b8b9bd05ee6d0fc7638ada75b495992951cd778645c0ebe5182331e9ae839f5c",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "01665de3a509422a84051a5ea27c47447c26d54640d0493b706c8eff9a755503",
+    "answers_correctness": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+]

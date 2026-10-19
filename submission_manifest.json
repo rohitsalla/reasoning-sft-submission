@@ -1,0 +1,30 @@
+{
+  "schema": "reasoning-submission-v1",
+  "selected_candidate": "ordinary-full-15000-sft",
+  "source_repository": "https://github.com/rohitsalla/reasoning-sft-llm-results",
+  "source_commit": "78a78d3b09402729e20745908586f8b043a22a65",
+  "base_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "github_repository": "rohitsalla/reasoning-sft-submission",
+  "model_repository": "rohitspider/reasoning-sft-submission-full-15k",
+  "dataset_repository": "rohitspider/reasoning-sft-submission-data-15k",
+  "model_revision": null,
+  "dataset_revision": null,
+  "upload_verified": false,
+  "improved_over_base_count": 4,
+  "historical_gates_cleared": 2,
+  "strict_all_nine": false,
+  "strict_gates": {
+    "aime": 8,
+    "aime25": 8,
+    "math": 451,
+    "cn_math_2024": 14,
+    "kaoyan": 138,
+    "amc": 33,
+    "minerva": 95,
+    "olympiadbench": 385,
+    "gpqa": 121
+  },
+  "training_data_sha256": "dfd90ba66bf97bfe649befcb7edf009e5a539296790a22e0b12c19336d19d10a",
+  "trainer_source_snapshot_commit": "a2718255e0409841aa3794c077350b8e5fdc5a00",
+  "trainer_source_tree_sha256": "05aa58cebdff9cb78fc06a5b94014dbad4f5c3d66d6de0a210bb2c4ef5a0af75"
+}
