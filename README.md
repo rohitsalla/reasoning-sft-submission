@@ -48,17 +48,17 @@ Base and fine-tuned models were evaluated on the same 1,974 questions, with eigh
 
 ## Benchmark Results
 
-| Benchmark | Base pass@8 | Fine-tuned pass@8 | Change |
-|---|---:|---:|---:|
-| AIME 2024 | 23.33% | 16.67% | -6.67 pp |
-| AIME 2025 | 13.33% | 20.00% | +6.67 pp |
-| MATH-500 | 85.20% | 85.00% | -0.20 pp |
-| CN Math 2024 | 23.33% | 33.33% | +10.00 pp |
-| Kaoyan | 56.78% | 59.80% | +3.02 pp |
-| AMC | 77.50% | 70.00% | -7.50 pp |
-| Minerva Math | 49.63% | 48.90% | -0.74 pp |
-| OlympiadBench | 49.48% | 49.33% | -0.15 pp |
-| GPQA-Diamond | 76.77% | 79.29% | +2.53 pp |
+| Benchmark | Base pass@8 | Fine-tuned pass@8 |
+|---|---:|---:|
+| AIME 2024 | 23.33% | 16.67% |
+| AIME 2025 | 13.33% | 20.00% |
+| MATH-500 | 85.20% | 85.00% |
+| CN Math 2024 | 23.33% | 33.33% |
+| Kaoyan | 56.78% | 59.80% |
+| AMC | 77.50% | 70.00% |
+| Minerva Math | 49.63% | 48.90% |
+| OlympiadBench | 49.48% | 49.33% |
+| GPQA-Diamond | 76.77% | 79.29% |
 
 The assignment's seven-benchmark average pass@8 increases from **49.55% to 51.52%**, a **1.97 percentage-point** gain. This average covers AIME 2025, CN Math 2024, Kaoyan, AMC, Minerva Math, OlympiadBench and GPQA.
 
