@@ -1,5 +1,7 @@
 # Full-Parameter Reasoning SFT
 
+**Rohit Kumar Salla · Manoj Saravanan · Haissam Adam**
+
 [Read the academic report (PDF)](REPORT.pdf) · [LaTeX source](report/report.tex)
 
 ## Objective and model

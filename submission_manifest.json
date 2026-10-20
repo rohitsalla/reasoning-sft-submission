@@ -1,8 +1,8 @@
 {
   "model_repository": "rohitspider/reasoning-sft-submission-full-15k",
   "dataset_repository": "rohitspider/reasoning-sft-submission-data-15k",
-  "model_revision": "course-submission-20261020",
-  "dataset_revision": "course-submission-20261020",
+  "model_revision": "course-submission-20261020-authors",
+  "dataset_revision": "course-submission-20261020-authors",
   "training_examples": 15000,
   "training_updates": 1875,
   "benchmarks": 9,
