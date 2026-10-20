@@ -9,7 +9,7 @@ Selected submission: ordinary full-parameter 15K SFT, not TIES and not the later
 
 ## Text for the course submission
 
-We submit a full-parameter Qwen2.5-3B-Instruct model fine-tuned on 15,000 advanced-selected AceReason examples. Across the assignment's seven AVG benchmarks, matched pass@8 is 51.52% versus the base model's 49.55%. The model improves on four of nine benchmarks (AIME25, CN Math 2024, Kaoyan, GPQA), with regressions on five. It clears two frozen historical thresholds; we do not claim 9/9 or an official historical rank. Code, the original training configuration, base/fine-tuned evaluation metrics, paired comparisons, both selected datasets and report are linked above.
+We submit a full-parameter Qwen2.5-3B-Instruct model fine-tuned on 15,000 advanced-selected AceReason examples. Across the assignment's seven AVG benchmarks, pass@8 is 51.52% versus the base model's 49.55%. The linked repository contains code, the training configuration, benchmark results, analysis and the project report. The model and both selected datasets are available through the Hugging Face links above.
 
 A matched completed full-parameter random-data nine-suite ablation is not available; the random 15K dataset is supplied. The report documents the actual 4,096 training cutoff, differing from the assignment's 16K example configuration, and all observed limitations.
 

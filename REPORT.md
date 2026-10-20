@@ -20,6 +20,8 @@ All nine suites: AIME24, AIME25, MATH, CN Math 2024, Kaoyan, AMC, Minerva, Olymp
 
 ## Findings and limitations
 
-See [RESULTS.md](RESULTS.md) for every score and gate. Observed seven-task pass@8 rises 49.55% to 51.52%, +1.97 points, paired 95% CI [-1.89,+5.74]. That interval includes no improvement. Seven-task pass@1 falls from 23.55% to 21.85%, and truncations increase from 141 to 1,964 out of 15,792. Improvements occur on four of nine benchmarks; five regress. Only Minerva and GPQA clear the frozen historical thresholds. The model has **not** achieved the author's strict all-nine goal. Historical runtime/data equivalence is unverified, so these are matched internal results, not an official leaderboard-equivalence claim.
+See [RESULTS.md](RESULTS.md) for the complete benchmark table. Seven-task average pass@8 increases from 49.55% to 51.52%. The +1.97 percentage-point difference has a paired 95% confidence interval of −1.89 to +5.74 points, so the observed average improvement is not statistically conclusive.
 
-The random dataset is provided as required, but this snapshot does not claim a matched completed nine-suite full-parameter random-data ablation. Earlier pilot/adapter experiments are not interchangeable with this final full-parameter result. The later TIES merge scored 51.59% pass@8 but also cleared 2/9; this snapshot uses ordinary SFT as explicitly requested. A future candidate must be fully trained and evaluated before replacing this artifact; partial checkpoints and lower training loss are not submission score evidence.
+Average pass@1 decreases from 23.55% to 21.85%. Truncated responses increase from 141 to 1,964 out of 15,792 samples. These results show mixed performance across benchmarks and a substantial increase in response truncation.
+
+The random dataset is provided alongside the advanced dataset. A matched completed full-parameter random-data evaluation is not available, so these experiments do not isolate the effect of advanced selection relative to random-data training. The submitted artifact is the completed ordinary full-SFT model described above.

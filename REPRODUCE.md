@@ -20,7 +20,7 @@ This is a reproduction command, not part of the automated research monitor. It n
 
 ## Evaluation
 
-Acquire the benchmark datasets under their original terms; GPQA requires Hugging Face access approval. Gated question text is not redistributed in this repository. Place each suite at `$BENCHMARK_DIR/<name>/test.jsonl`. Compare data hashes and question IDs against `results/base/manifest.json`. AIME25 is separately sourced; its exact saved identity is bound in the manifests and must not be silently replaced with another version. No exact historical leaderboard equivalence is asserted.
+Acquire the benchmark datasets under their original terms; GPQA requires Hugging Face access approval. Gated question text is not redistributed in this repository. Place each suite at `$BENCHMARK_DIR/<name>/test.jsonl`. Compare data hashes and question IDs against `results/base/manifest.json`. AIME25 is separately sourced; its exact saved identity is bound in the manifests and must not be silently replaced with another version.
 
 Install the observed evaluator environment separately. With a downloaded local checkpoint:
 

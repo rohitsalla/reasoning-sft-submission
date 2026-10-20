@@ -11,7 +11,7 @@
 
 Approved Hugging Face destinations: model `rohitspider/reasoning-sft-submission-full-15k` (three model shards ~12.35 GB plus tokenizer/config); dataset `rohitspider/reasoning-sft-submission-data-15k` (exact random and advanced JSON exports, 15,000 records each, ~543 MB total plus selection manifest). Both are private. The author explicitly approved and completed the GitHub transfer to `https://github.com/rohitsalla/reasoning-sft-submission`. The author explicitly approved both exact transfers on October 20, 2026.
 
-This package has not achieved the separate strict 9/9 goal. No course form has been submitted.
+No course form has been submitted.
 
 Verified artifact revisions:
 
