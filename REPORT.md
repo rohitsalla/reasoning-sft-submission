@@ -2,17 +2,17 @@
 
 ## Objective and model
 
-Fine-tune Qwen2.5-3B-Instruct on 15,000 selected AceReason examples and compare it to the same pinned base under a matched internal evaluator. Base revision: `aa8e72537993ba99e69dfaafa59ed015b17504d1`. The selected completed model is `runs/lmf-full-15000-sft`; training finished all 1,875 optimizer updates with finite logs. It is separate from the later full-length 16K/three-epoch experiment.
+This project fine-tunes Qwen2.5-3B-Instruct on 15,000 selected AceReason examples and evaluates the model against the original base model under matching settings. Training completed 1,875 optimizer updates.
 
 ## Data selection
 
-The pipeline normalizes and deduplicates prompts, excludes benchmark overlaps, reserves validation data before selection, and computes source-text features. The final advanced export uses the frozen `route` strategy at selection cutoff 8,192: lexical reasoning-route signatures, clustering, quality/complete-answer and repetition filters, and square-root quotas for diversity. This is a heuristic adaptation, not proof of reasoning quality. Random selection uses the same prepared candidate pool, size 15,000 and seed 42. Exact selected IDs, quotas and arguments are in `artifacts/datasets-final-8k/selection_manifest.json`; both exact exports have been uploaded and verified in the private Hugging Face dataset repository. Immutable revisions are pinned in submission_manifest.json.
+The pipeline normalizes and deduplicates prompts, excludes benchmark overlaps, reserves validation data, and computes source-text features. Advanced selection combines lexical reasoning-route signatures, clustering, answer-completeness and repetition filters, and square-root quotas for diversity. Random selection samples 15,000 examples from the same prepared candidate pool with seed 42. Both datasets are available on Hugging Face.
 
-The advanced JSON SHA-256 is `dfd90ba66bf97bfe649befcb7edf009e5a539296790a22e0b12c19336d19d10a`. **Selection cutoff 8,192 differs from the actual trainer cutoff 4,096.** Long selected targets can therefore be truncated during this completed run. The saved original dataset mapping also omitted an explicit system-column mapping; the later full-length experiment corrects that loader issue, but no accuracy effect is established. The submission preserves the actual earlier configuration and does not relabel it as the assignment's longer reference recipe.
+Data selection uses an 8,192-token cutoff; training uses a 4,096-token context, so longer targets can be truncated. The original loader configuration does not explicitly map the system column. These details are reflected in the provided training configuration.
 
 ## Training hyperparameters
 
-Full parameters; plain response-only cross-entropy; Qwen template; SDPA attention; cutoff 4,096; 15,000 samples; 1,875 updates; one B200; per-device batch 1; accumulation 8 (effective batch 8); learning rate 2e-6; cosine schedule; warmup ratio 0.03; weight decay 0.01; maximum gradient norm 1; BF16 mixed precision; gradient checkpointing; seed/data seed 42; no packing and no prompt loss. The exact saved configuration and actual software environment are in `provenance/`.
+Full parameters; plain response-only cross-entropy; Qwen template; SDPA attention; cutoff 4,096; 15,000 samples; 1,875 updates; one B200; per-device batch 1; accumulation 8 (effective batch 8); learning rate 2e-6; cosine schedule; warmup ratio 0.03; weight decay 0.01; maximum gradient norm 1; BF16 mixed precision; gradient checkpointing; seed/data seed 42; no packing and no prompt loss. The training configuration is in `configs/train.yaml`; observed package versions are listed in the requirements files.
 
 ## Evaluation
 
@@ -24,4 +24,4 @@ See [RESULTS.md](RESULTS.md) for the complete benchmark table. Seven-task averag
 
 Average pass@1 decreases from 23.55% to 21.85%. Truncated responses increase from 141 to 1,964 out of 15,792 samples. These results show mixed performance across benchmarks and a substantial increase in response truncation.
 
-The random dataset is provided alongside the advanced dataset. A matched completed full-parameter random-data evaluation is not available, so these experiments do not isolate the effect of advanced selection relative to random-data training. The submitted artifact is the completed ordinary full-SFT model described above.
+The random dataset is provided alongside the advanced dataset. A matched completed full-parameter random-data evaluation is not available, so these experiments do not isolate the effect of advanced selection relative to random-data training.

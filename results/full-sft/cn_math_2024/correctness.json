@@ -1,6 +1,6 @@
 [
   {
-    "problem_id": "74e532360515470809a38e81bed22ccaccaeced8d1f17e9f484a4c127a492d44",
+    "problem_id": "cn_math_2024-0001",
     "answers_correctness": [
       false,
       false,
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "problem_id": "055a89e26334f388402708af22cd5079686cd8ec0f02ba89490d70b2171d9505",
+    "problem_id": "cn_math_2024-0002",
     "answers_correctness": [
       false,
       false,
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "problem_id": "e4226dee5e3ef5e25db4ab14e3f4111512268c1b2abf56f4e3a44d92b300f62e",
+    "problem_id": "cn_math_2024-0003",
     "answers_correctness": [
       false,
       false,
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "problem_id": "0377694b18190538037bedd792fdef50c1b8f5cc93666bbdc668b2e54f09ffc6",
+    "problem_id": "cn_math_2024-0004",
     "answers_correctness": [
       false,
       false,
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "problem_id": "1e5fddb6e7138be7df5b8584b568ffd52e136dc0dd0d42f10a7022c3b883ca45",
+    "problem_id": "cn_math_2024-0005",
     "answers_correctness": [
       false,
       false,
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "problem_id": "d6bebd392f4fdfdc45fbfe1daf564ef1c12be8c1ac8215255e7d3dc1b6d644fc",
+    "problem_id": "cn_math_2024-0006",
     "answers_correctness": [
       false,
       false,
@@ -78,7 +78,7 @@
     ]
   },
   {
-    "problem_id": "4f23e3ec97bc93d3e9bed368386a35efdd0c8ee8026ac5d21426955e50fdf772",
+    "problem_id": "cn_math_2024-0007",
     "answers_correctness": [
       false,
       false,
@@ -91,7 +91,7 @@
     ]
   },
   {
-    "problem_id": "3918b4ec10ac037ba54fe102d6ed4d837454fdcc13f390beaa6cb3554ab985a5",
+    "problem_id": "cn_math_2024-0008",
     "answers_correctness": [
       false,
       false,
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "problem_id": "05d314fc5f4a421d077084613f69926b06e2f7b2d599d4cb2d1503f8356592f1",
+    "problem_id": "cn_math_2024-0009",
     "answers_correctness": [
       false,
       false,
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "problem_id": "330afb5d49a0c42b13184524c98973d559c22a130ecc0da64af6607e2c793ff0",
+    "problem_id": "cn_math_2024-0010",
     "answers_correctness": [
       false,
       false,
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "problem_id": "1921721618d04d3f5d31acb6ef4159be49ccd137c0c36395bf4ceb467ee86387",
+    "problem_id": "cn_math_2024-0011",
     "answers_correctness": [
       false,
       false,
@@ -143,7 +143,7 @@
     ]
   },
   {
-    "problem_id": "56d0613e3373533acd0f7f69f274fc7b38985388ac3f316206eacb243cc99a35",
+    "problem_id": "cn_math_2024-0012",
     "answers_correctness": [
       false,
       false,
@@ -151,116 +151,12 @@
       true,
       false,
       false,
-      true,
-      true
-    ]
-  },
-  {
-    "problem_id": "fdefd6324c5dc76ee53b1cc898836e22ed33c9cf14868d14cb994ed29638044f",
-    "answers_correctness": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ]
-  },
-  {
-    "problem_id": "bf6ee1805dfc23312f1f05f0eb5d3212f4c69bdcb1b140539448f6ca7b23dd88",
-    "answers_correctness": [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ]
-  },
-  {
-    "problem_id": "e35e3e8bfa4e214eb90370c71bae98a3cca827f0b6257245b06b8955e09d40bd",
-    "answers_correctness": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ]
-  },
-  {
-    "problem_id": "846f5b5990a40fd88c14062123bc54248d0162c7ca0f5c0795d74a18b2162793",
-    "answers_correctness": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ]
-  },
-  {
-    "problem_id": "c90c1ff7e47cfaf2a551fd4be08c7e99c7545fe2952273bc51656b6ba294ac28",
-    "answers_correctness": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ]
-  },
-  {
-    "problem_id": "c726b1f724a6bd014a69078875f76861dc6ee5bc77d8dddcf75c5e333d83a49f",
-    "answers_correctness": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ]
-  },
-  {
-    "problem_id": "65c31a378178df2ca3368c68f140113e466e448969856104367b5a69e0d9e666",
-    "answers_correctness": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ]
-  },
-  {
-    "problem_id": "44bd5b4aa508ad5f245f81ee727ad638542d21768773eda0e94b86a86c5dc1df",
-    "answers_correctness": [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
       true,
       true
     ]
   },
   {
-    "problem_id": "eb69804ead1954ecfd39dccf9f9bcf9242776a0de085204dfb1b87013913fa25",
+    "problem_id": "cn_math_2024-0013",
     "answers_correctness": [
       false,
       false,
@@ -273,7 +169,7 @@
     ]
   },
   {
-    "problem_id": "5b865f90bbfb0b8333edfa6b954e204060f582bb359a48856d3de39ea95f12cc",
+    "problem_id": "cn_math_2024-0014",
     "answers_correctness": [
       false,
       true,
@@ -286,7 +182,7 @@
     ]
   },
   {
-    "problem_id": "a579808412c1ed84508573573f800a2470ff4041298a75bdd5bc0a3ce00b0523",
+    "problem_id": "cn_math_2024-0015",
     "answers_correctness": [
       false,
       false,
@@ -299,7 +195,7 @@
     ]
   },
   {
-    "problem_id": "65368de407c084ccee52838a806c37d6fe7f9979f2a1b45436a6973a3afdef97",
+    "problem_id": "cn_math_2024-0016",
     "answers_correctness": [
       false,
       false,
@@ -312,7 +208,7 @@
     ]
   },
   {
-    "problem_id": "1c2b198ec52ed0df60aefaf2970893b2292216c24301a6acd976b8e5c3456620",
+    "problem_id": "cn_math_2024-0017",
     "answers_correctness": [
       false,
       false,
@@ -325,7 +221,111 @@
     ]
   },
   {
-    "problem_id": "29568c8aa151c7daa7d2cd2e56b0464ef455bf9ac019ec88fcd8073b9bef125a",
+    "problem_id": "cn_math_2024-0018",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0019",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0020",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0021",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0022",
+    "answers_correctness": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0023",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0024",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0025",
+    "answers_correctness": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "problem_id": "cn_math_2024-0026",
     "answers_correctness": [
       false,
       false,
@@ -338,7 +338,7 @@
     ]
   },
   {
-    "problem_id": "ecbebe5f0183e8ab5946db2206ab935945bdb06ee30699396b69588e3baaf694",
+    "problem_id": "cn_math_2024-0027",
     "answers_correctness": [
       true,
       false,
@@ -351,7 +351,7 @@
     ]
   },
   {
-    "problem_id": "28b7f8664770b48003e9e766e4e3f3c573e0baff5bc9d541f969fc2296740ddd",
+    "problem_id": "cn_math_2024-0028",
     "answers_correctness": [
       false,
       false,
@@ -364,7 +364,7 @@
     ]
   },
   {
-    "problem_id": "be902208651e1d1f38dd7da7c73c0fc2713e54ba31b80116c6483d74e349d757",
+    "problem_id": "cn_math_2024-0029",
     "answers_correctness": [
       false,
       false,
@@ -377,7 +377,7 @@
     ]
   },
   {
-    "problem_id": "84458f8f675418e76aa3cffc3d4b7b3defb6883b772b28abbf7899a810162824",
+    "problem_id": "cn_math_2024-0030",
     "answers_correctness": [
       false,
       false,

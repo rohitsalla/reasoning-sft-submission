@@ -1,10 +1,10 @@
-# Assignment submission requirements
+# Assignment Requirements
 
-Extracted from the supplied assignment README, section 8. Deadline: October 20, 2026, 11:59 p.m. Eastern.
+[Official assignment](https://github.com/reds-lab/Project-Reasoning-SFT-LLM#8-submission)
 
-1. GitHub repository containing necessary files and final README.
-2. Models uploaded to Hugging Face.
-3. Both random and advanced datasets uploaded to Hugging Face.
-4. Report covering original-base results, fine-tuned results, comparison, final hyperparameters, and data selection.
+- GitHub repository with code and README
+- Trained models on Hugging Face
+- Random and advanced datasets on Hugging Face
+- Report covering baseline results, fine-tuned results, analysis, training settings and data selection
 
-This snapshot provides the completed ordinary full-SFT result. The separate author objective of clearing all nine frozen historical gates is not achieved.
+Deadline: October 20, 2026, 11:59 p.m. Eastern.

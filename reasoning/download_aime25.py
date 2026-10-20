@@ -8,7 +8,7 @@ from .data import digest,prompt_id,question,read_rows,write_json
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--revision',default='563bb8404243c5f09de6ec262f2db674fe5bce9b')
+    p.add_argument('--revision',required=True,help='Dataset release or revision to download')
     p.add_argument('--base-benchmarks',default='artifacts/benchmarks')
     p.add_argument('--output',default='artifacts/benchmarks_extended')
     a=p.parse_args()

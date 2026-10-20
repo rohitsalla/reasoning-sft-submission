@@ -1,6 +1,5 @@
 ### Full-data, full-parameter LLaMA-Factory SFT run.
 model_name_or_path: Qwen/Qwen2.5-3B-Instruct
-model_revision: aa8e72537993ba99e69dfaafa59ed015b17504d1
 trust_remote_code: false
 flash_attn: sdpa
 

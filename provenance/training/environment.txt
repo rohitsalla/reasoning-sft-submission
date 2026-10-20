@@ -13,6 +13,5 @@
 - GPU memory: 178.34GB
 - DeepSpeed version: 0.18.9
 - vLLM version: 0.19.0
-- Git commit: 1310d8cbef50ba80d6cf0c785e63cf60986847a3
 - Default data directory: not detected
 
