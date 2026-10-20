@@ -2,7 +2,7 @@
 
 Supervised fine-tuning of **Qwen2.5-3B-Instruct** on 15,000 AceReason examples, with baseline evaluation, advanced data selection and benchmark analysis.
 
-[Project report](REPORT.md) · [Hugging Face model](https://huggingface.co/rohitspider/reasoning-sft-submission-full-15k) · [Training datasets](https://huggingface.co/datasets/rohitspider/reasoning-sft-submission-data-15k)
+[Report (PDF)](REPORT.pdf) · [LaTeX source](report/report.tex) · [Hugging Face model](https://huggingface.co/rohitspider/reasoning-sft-submission-full-15k) · [Training datasets](https://huggingface.co/datasets/rohitspider/reasoning-sft-submission-data-15k)
 
 ## Overview
 
@@ -64,13 +64,18 @@ The assignment's seven-benchmark average pass@8 increases from **49.55% to 51.52
 
 Results are mixed across individual benchmarks. The paired 95% interval for the average improvement is −1.89 to +5.74 percentage points, so the observed gain is not statistically conclusive. Average pass@1 decreases from 23.55% to 21.85%, and truncated responses increase from 141 to 1,964 out of 15,792 samples. See the [report](REPORT.md) for analysis and limitations.
 
+## Plots
+
+![Benchmark pass@8](report/figures/benchmark_pass8.png)
+
+![Training dynamics](report/figures/training_dynamics.png)
+
 ## Getting Started
 
-Authenticate to Hugging Face to access the private model and datasets:
+Download the public model and datasets:
 
 ```bash
 pip install huggingface_hub
-hf auth login
 python scripts/download_artifacts.py
 ```
 
@@ -80,7 +85,9 @@ Use the Qwen chat template when loading the model with Transformers. Training an
 
 | Path | Contents |
 |---|---|
-| [REPORT.md](REPORT.md) | Method, experiments, findings and limitations |
+| [REPORT.pdf](REPORT.pdf) | Detailed academic report with figures and references |
+| [report/](report/) | LaTeX source and plot-generation code |
+| [REPORT.md](REPORT.md) | Report summary |
 | [RESULTS.md](RESULTS.md) | Detailed benchmark results |
 | [configs/](configs/) | Training configuration |
 | [reasoning/](reasoning/) | Data selection and evaluation code |

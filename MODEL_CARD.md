@@ -26,8 +26,8 @@ See the [project README](https://github.com/rohitsalla/reasoning-sft-submission)
 
 ## Usage
 
-Load with Transformers using `AutoTokenizer` and `AutoModelForCausalLM`, and apply the Qwen chat template. Authentication is required for this private repository.
+Load with Transformers using `AutoTokenizer` and `AutoModelForCausalLM`, and apply the Qwen chat template. The model is publicly downloadable.
 
-[Training datasets](https://huggingface.co/datasets/rohitspider/reasoning-sft-submission-data-15k) · [Code and report](https://github.com/rohitsalla/reasoning-sft-submission)
+[Training datasets](https://huggingface.co/datasets/rohitspider/reasoning-sft-submission-data-15k) · [Academic report (PDF)](https://github.com/rohitsalla/reasoning-sft-submission/blob/main/REPORT.pdf) · [Code and report](https://github.com/rohitsalla/reasoning-sft-submission)
 
 The model can produce incorrect answers. Upstream Qwen and AceReason license terms apply.

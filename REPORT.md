@@ -1,4 +1,6 @@
-# Submission report: full-parameter reasoning SFT
+# Full-Parameter Reasoning SFT
+
+[Read the academic report (PDF)](REPORT.pdf) · [LaTeX source](report/report.tex)
 
 ## Objective and model
 

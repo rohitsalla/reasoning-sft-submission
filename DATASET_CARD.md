@@ -26,8 +26,8 @@ data = load_dataset(
 )
 ```
 
-Download the JSON files first, or use their local paths. Authentication is required for this private repository.
+Download the JSON files first, or use their local paths. The datasets are publicly downloadable.
 
-[Trained model](https://huggingface.co/rohitspider/reasoning-sft-submission-full-15k) · [Code and report](https://github.com/rohitsalla/reasoning-sft-submission)
+[Trained model](https://huggingface.co/rohitspider/reasoning-sft-submission-full-15k) · [Academic report (PDF)](https://github.com/rohitsalla/reasoning-sft-submission/blob/main/REPORT.pdf) · [Code and report](https://github.com/rohitsalla/reasoning-sft-submission)
 
 Upstream AceReason dataset terms apply.

@@ -2,11 +2,10 @@
 
 ## Download
 
-Authenticate to Hugging Face and download the model and both datasets:
+Download the public model and both datasets:
 
 ```bash
 pip install huggingface_hub
-hf auth login
 python scripts/download_artifacts.py
 ```
 
@@ -46,3 +45,13 @@ python3 scripts/verify_submission.py
 This checks dataset size, training progress and benchmark scores without a GPU. Detailed results are in [RESULTS.md](RESULTS.md).
 
 Upstream Qwen, AceReason and LLaMA-Factory licenses apply.
+
+## Build the Report
+
+```bash
+MPLCONFIGDIR=/tmp/reasoning-report-mpl python3 report/make_figures.py
+cd report
+tectonic report.tex
+```
+
+The LaTeX source uses standard article formatting. Install Matplotlib and NumPy to regenerate the figures; compile with Tectonic or a compatible LaTeX distribution. The published report is available as `REPORT.pdf`.
