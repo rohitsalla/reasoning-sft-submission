@@ -1,0 +1,39 @@
+{
+  "model_verification": {
+    "model_source": "/projects/tealab/rohit/reasoning-sft-20261011/runs/lmf-full-15000-sft",
+    "tensor_count": 434,
+    "all_tensors_finite_cpu": true,
+    "shards": {
+      "model-00001-of-00003.safetensors": {
+        "sha256": "c4887079990f1f718820f5b053a7c9e6cf290d783c9c6ebb1b3c7fe503b87e5d",
+        "bytes": 4982131536
+      },
+      "model-00002-of-00003.safetensors": {
+        "sha256": "8d41292512a9999a7d70a8fa03fb805312cf37d7e357bed6ec25669acb2866e0",
+        "bytes": 4932949336
+      },
+      "model-00003-of-00003.safetensors": {
+        "sha256": "e050c405508ba91c74c1b14074d049e55eda561bf9031c30a008e40d354a9ad1",
+        "bytes": 2428723160
+      }
+    },
+    "evaluated_manifest_identity_verified": true
+  },
+  "datasets": {
+    "random": {
+      "rows": 15000,
+      "bytes": 356734536,
+      "sha256": "060be1f16e41691b02e86279c0d0b35a87bc183ed2e5dc944096733836ba1c8b"
+    },
+    "advanced": {
+      "rows": 15000,
+      "bytes": 186353276,
+      "sha256": "dfd90ba66bf97bfe649befcb7edf009e5a539296790a22e0b12c19336d19d10a"
+    }
+  },
+  "dataset_repository": "rohitspider/reasoning-sft-submission-data-15k",
+  "dataset_revision": "a636fffb7fa9861f7b68b8c80a3515a24442db9c",
+  "model_repository": "rohitspider/reasoning-sft-submission-full-15k",
+  "model_revision": "03bd6b1bd5af0361ce33dd9a438d7f926fa5f061",
+  "upload_verified": true
+}

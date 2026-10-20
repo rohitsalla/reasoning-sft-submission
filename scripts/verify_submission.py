@@ -45,3 +45,20 @@ assert len(improved)==4 and len(cleared)==2 and not m['strict_all_nine']
 print('PASS: file hashes; 15,000 advanced rows; 1,875 finite training updates; all nine matched suites; 1,974 questions x 8 samples per model.')
 print('Improves over base:',improved,'Historical gates:',cleared)
 print('Hugging Face uploads verified:',m['upload_verified'])
+
+if m.get('upload_verified'):
+    import re
+    for typ in ('model','dataset'):
+        assert re.fullmatch(r'[0-9a-f]{40}',m[typ+'_revision']), 'missing immutable '+typ+' revision'
+    receipt=read(root/'provenance/huggingface_upload_receipt.json')
+    assert receipt['upload_verified'] is True
+    for typ in ('model','dataset'):
+        assert receipt[typ+'_revision']==m[typ+'_revision']
+    assert receipt['model_verification']['all_tensors_finite_cpu'] is True
+    assert receipt['model_verification']['evaluated_manifest_identity_verified'] is True
+    for name in ('random','advanced'):
+        assert receipt['datasets'][name]['rows']==15000
+    assert receipt['datasets']['advanced']['sha256']==m['training_data_sha256']
+    for name,info in receipt['model_verification']['shards'].items():
+        assert info['sha256']==runs['full-sft'][1]['identity'][name]
+    print('PASS: immutable Hugging Face revisions; uploaded datasets and evaluated model shard identities.')

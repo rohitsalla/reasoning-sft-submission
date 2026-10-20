@@ -7,9 +7,9 @@
   "github_repository": "rohitsalla/reasoning-sft-submission",
   "model_repository": "rohitspider/reasoning-sft-submission-full-15k",
   "dataset_repository": "rohitspider/reasoning-sft-submission-data-15k",
-  "model_revision": null,
-  "dataset_revision": null,
-  "upload_verified": false,
+  "model_revision": "03bd6b1bd5af0361ce33dd9a438d7f926fa5f061",
+  "dataset_revision": "a636fffb7fa9861f7b68b8c80a3515a24442db9c",
+  "upload_verified": true,
   "improved_over_base_count": 4,
   "historical_gates_cleared": 2,
   "strict_all_nine": false,
@@ -27,5 +27,8 @@
   "training_data_sha256": "dfd90ba66bf97bfe649befcb7edf009e5a539296790a22e0b12c19336d19d10a",
   "trainer_source_snapshot_commit": "a2718255e0409841aa3794c077350b8e5fdc5a00",
   "trainer_source_tree_sha256": "05aa58cebdff9cb78fc06a5b94014dbad4f5c3d66d6de0a210bb2c4ef5a0af75",
-  "github_published": true
+  "github_published": true,
+  "selected_for_final_submission_on": "2026-10-20",
+  "course_submission_verified": false,
+  "grader_access_verified": false
 }

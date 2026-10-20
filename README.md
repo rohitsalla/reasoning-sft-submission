@@ -1,6 +1,6 @@
 # Reasoning SFT — submission snapshot
 
-This is the **ordinary full-parameter 15,000-example SFT model** selected by the author as the submission fallback while the separate full-length experiment is pending. It is a completed, evaluated checkpoint, not the unfinished 16K/three-epoch model.
+This is the **ordinary full-parameter 15,000-example SFT model** selected by the author for the final assignment submission. It is a completed, evaluated checkpoint, separate from the later 16K/three-epoch experiments.
 
 **Measured outcome:** seven-task pass@8 **51.52%** versus matched base **49.55%**; improves over base on **4/9** benchmarks and clears **2/9** frozen historical gates. It has not achieved 9/9. See [results](RESULTS.md) and [report](REPORT.md).
 
@@ -8,11 +8,11 @@ This is the **ordinary full-parameter 15,000-example SFT model** selected by the
 - Random and advanced datasets: https://huggingface.co/datasets/rohitspider/reasoning-sft-submission-data-15k
 - Research repository: https://github.com/rohitsalla/reasoning-sft-llm-results
 
-**Hugging Face upload is staged but pending explicit transfer approval; the links above currently point to empty private repositories.** The exact source model and both datasets remain preserved on ARC.
+****Model and both dataset uploads completed and verified October 20, 2026.** Immutable revisions are recorded in `submission_manifest.json`; all uploaded model shards match the evaluated checkpoint. CPU-only verification/upload job: 1213983.** The exact source model and both datasets remain preserved on ARC.
 
-Repositories are private. Grant the intended graders access to this GitHub repository and both Hugging Face repositories before submitting these links. The live research run is not controlled by this submission snapshot.
+This GitHub submission repository and the Hugging Face repositories are private. The separate research repository is public. Grant the intended graders access to this GitHub repository and both Hugging Face repositories before submitting these links. The live research run is not controlled by this submission snapshot.
 
-**Publication status:** the GitHub submission snapshot is published in this repository. Hugging Face model/dataset file uploads remain pending explicit transfer approval, so the complete assignment handoff is not yet ready.
+**Publication status:** the GitHub submission snapshot is published in this repository. The full artifact package is published on private GitHub and Hugging Face. Course form submission and grader access remain unverified. See [submission links and handoff text](SUBMIT_THIS.md).
 
 ## Inspect and verify
 

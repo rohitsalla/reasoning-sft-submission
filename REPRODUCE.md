@@ -1,6 +1,6 @@
 # Reproduction and artifact verification
 
-The exact evaluated model, when upload approval is complete, is downloaded using its immutable revision in `submission_manifest.json`. Until then the source checkpoint remains preserved at `/projects/tealab/rohit/reasoning-sft-20261011/runs/lmf-full-15000-sft` on ARC. Upload is staged, not yet verified. This is distinct from the new 16K experiment.
+The exact evaluated model is uploaded and verified; download it using the immutable revision in `submission_manifest.json`. The source checkpoint remains preserved at `/projects/tealab/rohit/reasoning-sft-20261011/runs/lmf-full-15000-sft` on ARC. The model and both exact 15K datasets passed upload verification. This is distinct from the new 16K experiment.
 
 ## Training
 
