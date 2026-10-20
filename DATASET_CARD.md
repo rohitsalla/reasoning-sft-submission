@@ -4,10 +4,30 @@ task_categories:
 language:
 - en
 ---
-# Reasoning SFT submission datasets
+# Reasoning SFT Datasets
 
-Two exact saved exports, `random.json` and `advanced.json`, each 15,000 records in Alpaca-style fields instruction/input/output/system. Derived from the assignment AceReason source; no new redistribution license is asserted. Original source: https://huggingface.co/datasets/redsgnaoh/acereason11_100k and upstream https://huggingface.co/datasets/nvidia/AceReason-1.1-SFT. Follow upstream terms.
+Two 15,000-example datasets derived from [AceReason-100K](https://huggingface.co/datasets/redsgnaoh/acereason11_100k):
 
-Advanced: source-only quality/complete-answer/repetition filtering and lexical route diversity with fixed quotas, selection cutoff 8,192, seed 42. Random: fixed-seed random sample from the prepared pool. The completed submitted model used the advanced export, actual trainer cutoff 4,096, and the original saved loader mapping. Random is supplied for the assignment; a matched complete random full-parameter nine-suite ablation is not claimed. See selection_manifest.json for exact IDs and artifact_manifest.json for hashes.
+| File | Selection |
+|---|---|
+| `random.json` | Random sampling with seed 42 |
+| `advanced.json` | Quality filtering and reasoning-route diversity |
 
-Load with `datasets.load_dataset("json", data_files={"random":"random.json", "advanced":"advanced.json"})` after downloading this private repository. These reasoning responses are source demonstrations, not independently certified proofs.
+Each record contains `instruction`, `input`, `output` and `system` fields. The submitted model was trained on `advanced.json`; no matched full random-data model evaluation is claimed.
+
+## Load
+
+```python
+from datasets import load_dataset
+
+data = load_dataset(
+    "json",
+    data_files={"random": "random.json", "advanced": "advanced.json"},
+)
+```
+
+Download the JSON files first, or use their local paths. Authentication is required for this private repository.
+
+[Trained model](https://huggingface.co/rohitspider/reasoning-sft-submission-full-15k) · [Code and report](https://github.com/rohitsalla/reasoning-sft-submission)
+
+Upstream AceReason dataset terms apply.
