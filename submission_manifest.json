@@ -6,18 +6,5 @@
   "training_examples": 15000,
   "training_updates": 1875,
   "benchmarks": 9,
-  "visibility": "public",
-  "snapshot_date": "2026-10-26",
-  "published_model_label": "advanced_route",
-  "published_model_seven_task_pass_at_8": 0.5152223567971425,
-  "best_measured": {
-    "label": "assistance_coverage",
-    "seven_task_pass_at_8": 0.5247725797592779,
-    "fixed_targets_met": 3,
-    "fixed_targets_total": 9,
-    "model_weights_published": false,
-    "training_dataset_published": false,
-    "results": "results/rubric-comparison/summary.json"
-  },
-  "rubric_evidence": "RUBRIC.md"
+  "visibility": "public"
 }
