@@ -4,5 +4,8 @@
   },
   "validation": {
     "file_name": "validation.json"
+  },
+  "random": {
+    "file_name": "random.json"
   }
 }

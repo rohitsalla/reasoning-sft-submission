@@ -7,6 +7,8 @@ pipeline_tag: text-generation
 
 Qwen2.5-3B-Instruct fine-tuned on 15,000 advanced-selected AceReason examples using full-parameter supervised fine-tuning.
 
+This card identifies the **published one-epoch advanced route model**, with seven-task pass@8 **51.5222%**. The project's best measured assistance model reaches **52.4773%, 3/9 fixed targets**, but its weights are not in this release. See [artifact identities and results](RESULTS.md).
+
 ## Results
 
 The seven-benchmark average pass@8 is **51.52%**, compared with **49.55%** for the base model. Performance improves on AIME 2025, CN Math 2024, Kaoyan and GPQA, with regressions on the remaining evaluated benchmarks.

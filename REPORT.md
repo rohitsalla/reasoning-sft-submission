@@ -1,31 +1,40 @@
-# Full-Parameter Reasoning SFT
+# Data Selection and Reasoning SFT: Interim Project Report
 
-**Rohit Kumar Salla · Manoj Saravanan · Haissam Adam**
+**Rohit Kumar Salla · Manoj Saravanan · Haissam Adam** · October 26, 2026
 
-[Read the academic report (PDF)](REPORT.pdf) · [LaTeX source](report/report.tex)
+[PDF report](REPORT.pdf) · [LaTeX source](report/report.tex) · [Rubric evidence](RUBRIC.md) · [All nine results](RESULTS.md)
 
-## Objective and model
+## Experimental setup
 
-This project fine-tunes Qwen2.5-3B-Instruct on 15,000 selected AceReason examples and evaluates the model against the original base model under matching settings. Training completed 1,875 optimizer updates.
+We fine-tune Qwen2.5-3B-Instruct with LLaMA-Factory using original AceReason targets. The core comparison includes original-model evaluation and two completed full-parameter SFT runs: random and advanced route-selected subsets of 15,000 examples. Both use a 4,096-token context, batch one with accumulation eight, 1,875 updates / one epoch, LR 2e-6, cosine schedule, 3% warmup, weight decay .01, clipping 1, BF16, Qwen template, SDPA, gradient checkpointing and seed/data seed 42. Prompt loss and packing are disabled. The selection cutoff was 8,192, so some responses may be truncated during 4K training; the original loader did not explicitly map the system column.
 
-## Data selection
+Our best measured extension uses assistance-associated utility and coverage to select a different 15,000 original examples. It changes training to 16,384-token context, LR 5e-6, zero warmup and three epochs / 5,625 updates, with effective batch eight across four ranks. Training recovered across allocations and completed the full history. Its recipe and exact data differ from the one-epoch comparison, so we report it separately.
 
-The pipeline normalizes and deduplicates prompts, excludes benchmark overlaps, reserves validation data, and computes source-text features. Advanced selection combines lexical reasoning-route signatures, clustering, answer-completeness and repetition filters, and square-root quotas for diversity. Random selection samples 15,000 examples from the same prepared candidate pool with seed 42. Both datasets are available on Hugging Face.
+## Dataset selection
 
-Data selection uses an 8,192-token cutoff; training uses a 4,096-token context, so longer targets can be truncated. The original loader configuration does not explicitly map the system column. These details are reflected in the provided training configuration.
+The preparation pipeline normalizes, deduplicates and excludes recognizable benchmark overlap, then reserves validation before selection. Random sampling uses seed 42. The advanced route strategy filters answer completeness and repetition, clusters prompts, applies square-root quotas and selects diverse lexical reasoning routes. The assistance extension combines supported normal-versus-prefix-assisted outcomes with cluster/length coverage, selecting 3,672 by positive utility and 11,328 by coverage. Original targets are unchanged. [DATA_SELECTION.md](DATA_SELECTION.md) explains the hypothesis, implementation, counts and limitations.
 
-## Training hyperparameters
+## Evaluation and results
 
-Full parameters; plain response-only cross-entropy; Qwen template; SDPA attention; cutoff 4,096; 15,000 samples; 1,875 updates; one B200; per-device batch 1; accumulation 8 (effective batch 8); learning rate 2e-6; cosine schedule; warmup ratio 0.03; weight decay 0.01; maximum gradient norm 1; BF16 mixed precision; gradient checkpointing; seed/data seed 42; no packing and no prompt loss. The training configuration is in `configs/train.yaml`; observed package versions are listed in the requirements files.
+Each of four models completed the same 1,974 records across all nine benchmarks, eight answers each: 15,792 samples/model. Generation uses one B200, seed 0, temperature .6, top-p .95, maximum new/total-context tokens 32,768, batch 1,024, maximum sequences 128, tensor parallelism one and memory utilization .85. The original prompt, extraction and grader are retained. Pass@1 is mean sample correctness; pass@8 is the fraction solved at least once. The seven-task mean excludes AIME 2024 and MATH-500.
 
-## Evaluation
+| Model | Seven-task pass@1 | Seven-task pass@8 | Truncated responses |
+|---|---:|---:|---:|
+| Original | 23.5497% | 49.5474% | 141 |
+| Random SFT | 21.1928% | 50.6262% | 2,494 |
+| Advanced route SFT | 21.8526% | 51.5222% | 1,964 |
+| Assistance + coverage | 22.9398% | 52.4773% | 2,324 |
 
-All nine suites: AIME24, AIME25, MATH, CN Math 2024, Kaoyan, AMC, Minerva, OlympiadBench and GPQA. 1,974 questions, eight samples/question (15,792 samples). Temperature 0.6, top-p 0.95, maximum new tokens 32,768, total context 32,768, seed 0 with stable per-question seeds, batch 1,024, maximum active sequences 128, tensor parallelism 1, GPU memory utilization 0.85 on one B200. The assignment grader is retained unchanged. Base and candidate use matching protocol and question manifests. Prompt tokens count toward total context, so some responses stop before the new-token maximum.
+The best single model meets **3/9 fixed historical targets**, AIME 2025 (8/30), Minerva (128/272) and GPQA (140/198). It misses AMC, AIME 2024, MATH, CN Math, Kaoyan and OlympiadBench. These local thresholds do not establish an official LiveBenchmark rank or top-five bonus.
 
 ## Findings and limitations
 
-See [RESULTS.md](RESULTS.md) for the complete benchmark table. Seven-task average pass@8 increases from 49.55% to 51.52%. The +1.97 percentage-point difference has a paired 95% confidence interval of −1.89 to +5.74 points, so the observed average improvement is not statistically conclusive.
+Advanced route selection exceeds random by 0.8960 percentage points in the seven-task pass@8 mean under matching one-epoch training settings. The best extension exceeds random by 1.8510 points and the original by 2.9298 points, but longer context, more epochs and a different learning rate confound attribution to selection. All are single-seed exploratory results; no significance claim follows from the differences. The earlier advanced-versus-original paired intervals remain available, but do not apply to the best/random comparisons.
 
-Average pass@1 decreases from 23.55% to 21.85%. Truncated responses increase from 141 to 1,964 out of 15,792 samples. These results show mixed performance across benchmarks and a substantial increase in response truncation.
+The best model's average pass@1 remains below the original, and truncation rises from 141 to 2,324 samples. It regresses on several tasks, including Minerva and GPQA against our original even while meeting their lower historical reference thresholds. Lexical features are proxies, assistance utility is associative, prefix leakage has not been ruled out, and overlap filtering does not prove contamination absence. Lower training loss does not establish reasoning improvement.
 
-The random dataset is provided alongside the advanced dataset. A matched completed full-parameter random-data evaluation is not available, so these experiments do not isolate the effect of advanced selection relative to random-data training.
+Next work should address termination while retaining the fixed evaluation protocol, compare selection under equal context/token/update budgets and repeat training seeds. Ongoing runs are excluded until training and evaluation complete; no predicted 9/9 is reported. GPU constraints limited follow-up scope and scheduling.
+
+## Artifact availability and reproduction
+
+[REPRODUCE.md](REPRODUCE.md) gives environments, commands and seeds. Both original random/advanced exports and the earlier advanced full model are public on Hugging Face. The public model corresponds to 51.5222%, **not** the best extension. Best-model weights, its distinct assistance dataset and random-model weights remain unpublished. Public score vectors, finish reasons and finite training histories allow CPU recomputation of the results, not replay of missing weights or regrading of private generations. [RUBRIC.md](RUBRIC.md) records all remaining submission gaps explicitly.

@@ -13,7 +13,7 @@ Two 15,000-example datasets derived from [AceReason-100K](https://huggingface.co
 | `random.json` | Random sampling with seed 42 |
 | `advanced.json` | Quality filtering and reasoning-route diversity |
 
-Each record contains `instruction`, `input`, `output` and `system` fields. The submitted model was trained on `advanced.json`; no matched full random-data model evaluation is claimed.
+Each record contains `instruction`, `input`, `output` and `system` fields. The published advanced model was trained on `advanced.json`. A matching one-epoch full-parameter random model has also completed all nine benchmarks; see [the four-model results](RESULTS.md). The best assistance-and-coverage model uses a separate dataset that is not part of this public dataset release.
 
 ## Load
 

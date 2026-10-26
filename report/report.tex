@@ -1,216 +1,183 @@
-\documentclass[11pt,letterpaper]{article}
-\usepackage[margin=0.85in,headheight=14pt]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{microtype,amsmath,amssymb,booktabs,array,graphicx,xcolor}
-\usepackage{caption,subcaption,float,placeins,enumitem,fancyhdr,xurl}
-\usepackage[colorlinks=true,linkcolor=navy,citecolor=navy,urlcolor=navy,breaklinks=true]{hyperref}
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.8in,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx,xcolor}
+\usepackage{caption,float,enumitem,fancyhdr,xurl}
+\usepackage[colorlinks=true,linkcolor=navy,urlcolor=navy,citecolor=navy]{hyperref}
 \definecolor{navy}{HTML}{245B89}
-\definecolor{graytext}{HTML}{586374}
+\setlength{\parskip}{4pt}\setlength{\parindent}{0pt}
 \captionsetup{font=small,labelfont=bf}
-\setlength{\parskip}{4pt}
-\setlength{\parindent}{0pt}
-\setlength{\textfloatsep}{12pt}
-\renewcommand{\topfraction}{0.92}
-\renewcommand{\bottomfraction}{0.85}
-\renewcommand{\textfraction}{0.08}
-\renewcommand{\floatpagefraction}{0.85}
-\setcounter{topnumber}{3}
-\setcounter{totalnumber}{4}
-\setlist[itemize]{itemsep=1pt,topsep=4pt,leftmargin=18pt}
+\setlist[itemize]{itemsep=2pt,topsep=3pt,leftmargin=17pt}
 \pagestyle{fancy}\fancyhf{}
-\fancyhead[L]{\small Qwen2.5-3B Reasoning SFT}
-\fancyhead[R]{\small Course Project Report}
+\fancyhead[L]{\small Qwen2.5-3B Reasoning SFT}\fancyhead[R]{\small Project 1 -- Interim Submission}
 \fancyfoot[C]{\small\thepage}
-\renewcommand{\headrulewidth}{0.3pt}
-\hypersetup{pdftitle={Data Selection and Full-Parameter Supervised Fine-Tuning for Qwen2.5-3B Reasoning},pdfauthor={Rohit Kumar Salla, Manoj Saravanan, Haissam Adam},pdfsubject={Reasoning SFT course project}}
-\title{\vspace{-1.5em}\textbf{Data Selection and Full-Parameter Supervised Fine-Tuning for Qwen2.5-3B Reasoning}}
-\author{Rohit Kumar Salla \quad Manoj Saravanan \quad Haissam Adam\\\small Reasoning SFT Course Project}
-\date{October 20, 2026}
-\begin{document}
-\maketitle
-\thispagestyle{fancy}
+\hypersetup{pdftitle={Data Selection and Reasoning SFT: Completed Four-Model Comparison},pdfauthor={Rohit Kumar Salla, Manoj Saravanan, Haissam Adam}}
+\title{\vspace{-1.5em}\textbf{Data Selection and Reasoning SFT}\\\large Completed Four-Model Comparison and Project Evidence}
+\author{Rohit Kumar Salla \quad Manoj Saravanan \quad Haissam Adam}
+\date{October 26, 2026}
+\begin{document}\maketitle\thispagestyle{fancy}
 \begin{abstract}
-We study a completed full-parameter supervised fine-tuning run of Qwen2.5-3B-Instruct using 15,000 examples selected from the assignment's AceReason corpus. The selection procedure combines answer-completeness and repetition filters with topic clustering and lexical reasoning-route coverage. We compare the resulting model with the original base on nine reasoning benchmarks using identical sampling and grading settings: eight responses per question, temperature 0.6, top-$p$ 0.95, and up to 32,768 generated tokens within the configured context window. On the assignment's seven-benchmark average, pass@8 increases from 49.55\% to 51.52\%, while pass@1 decreases from 23.55\% to 21.85\%. The recorded paired confidence interval for the pass@8 difference includes zero. Truncated samples increase from 141 to 1,964 among 15,792 responses per model. These findings indicate that the apparent average gain depends on the evaluation metric and accompanies substantially worse stopping behavior. We document the selection algorithm, actual 4,096-token training context, training dynamics, per-benchmark uncertainty, and limitations of attributing the result to data selection without a matched random-data training control.
+We evaluate data-selection strategies for full-parameter supervised fine-tuning of Qwen2.5-3B-Instruct on original AceReason targets. A completed one-epoch comparison uses random and route-selected 15,000-example subsets under the same training settings. Their seven-benchmark mean pass@8 scores are 50.6262\% and 51.5222\%, compared with 49.5474\% for the original model. A separate assistance-and-coverage model reaches 52.4773\% and meets three of nine fixed historical reference targets: AIME 2025, Minerva Math and GPQA-Diamond. All four models complete all nine benchmarks with matching inference settings and hardware. The best model also changes context, learning rate and training duration, preventing selection-only attribution. Its average pass@1 remains below the original and truncation increases substantially. We distinguish measured outcomes, public artifacts and remaining release gaps; no nine-target success, official leaderboard rank or bonus is claimed.
 \end{abstract}
 
-\section{Introduction}
-Supervised fine-tuning provides a direct way to adapt an instruction-following language model to mathematical and scientific reasoning demonstrations. In a fixed training-data budget, the selection of examples is an important experimental choice: selecting many near-duplicate solutions may offer little topic coverage, whereas prioritizing only difficult or long demonstrations may create a mismatch between the available training context and the responses being taught. The present project examines a practical selection pipeline and reports the behavior of its completed model rather than assuming that longer solutions or lower training loss imply better reasoning.
+\section{Objective and Submission Scope}
+The project studies whether selecting diverse, complete-looking original reasoning demonstrations improves multi-sample problem solving over random sampling. Training uses LLaMA-Factory~\cite{llamafactory}, Qwen2.5-3B-Instruct~\cite{qwen} and the assignment's AceReason source~\cite{acereason,assignment}. Lower training loss is treated as optimization evidence, not proof of reasoning quality.
 
-The starting model is Qwen2.5-3B-Instruct, an instruction-tuned causal language model with approximately 3.09 billion parameters~\cite{qwen}. Training uses LLaMA-Factory~\cite{llamafactory} and a 15,000-example subset derived from the assignment's AceReason-100K source~\cite{acereason,assignment}. The base and fine-tuned models are evaluated on identical questions and under matching generation settings. This comparison measures the combined effect of the selected examples and the stated training configuration; it does not separately identify the causal contribution of each selection component.
+This snapshot contains four completed nine-benchmark evaluations. The core data-selection comparison holds the random and advanced route models' training recipe fixed. The best assistance model is presented separately because its larger context and training budget change the experiment. Ongoing exploratory runs do not contribute scores to this report.
 
-The report addresses three questions. First, how can source-text features be used to obtain a topic-balanced and stylistically varied subset? Second, how does the completed model perform on each benchmark and on the assignment's specified average? Third, does performance under multiple sampling agree with single-sample accuracy and response termination? These questions motivate reporting the full score table, paired intervals, training traces, and truncation behavior together.
-
-\section{Data and Selection Method}
-\subsection{Corpus Preparation}
-The input is the supplied AceReason-100K dataset~\cite{acereason}. Records are normalized into an instruction--response representation with optional input and system fields. The preparation code removes invalid records, deduplicates normalized prompts, and excludes matching benchmark questions. Near-overlap filtering uses normalized character shingles with a minimum-overlap criterion. Validation examples are reserved before selection, and near-duplicates of validation questions are removed from the candidate pool.
-
-The resulting random and advanced exports each contain 15,000 examples. The random export samples from the prepared candidate pool with seed 42. The advanced export applies additional eligibility and coverage criteria. Consequently, the two exports differ in both filtering and sampling; they should not be treated as differing solely in cluster allocation.
-
-\subsection{Eligibility Filters}
-Token counts are measured using the Qwen chat template. An advanced-selection example must have at least 128 response tokens, a detected complete boxed answer, and a repeated-word-eight-gram fraction no larger than 0.35. The full serialized sequence must fit the 8,192-token selection limit with a 32-token reserve. The repeated-eight-gram fraction is
-\begin{equation}
- r(y)=1-\frac{|\operatorname{unique}(G_8(y))|}{|G_8(y)|},
-\end{equation}
-where $G_8(y)$ is the sequence of contiguous word eight-grams; the value is defined as zero when no such eight-grams exist. These filters measure observable properties of demonstrations. A boxed answer and low repetition do not certify mathematical correctness.
-
-\subsection{Topic Coverage and Route Features}
-Topic features are obtained from prompt text. The default implementation uses character TF--IDF features, truncated singular-value decomposition, and MiniBatch K-means clustering. For the selected advanced export, the quota table contains 113 populated eligible clusters. A greedy square-root allocation balances corpus prevalence and broader coverage. If cluster $j$ has capacity $N_j$ and current quota $q_j$, each additional slot is assigned to the non-full cluster maximizing
-\begin{equation}
- \frac{\sqrt{N_j}}{q_j+1}, \qquad \sum_j q_j=15{,}000.
-\end{equation}
-This allocation reduces the dominance of very large clusters while respecting each cluster's available examples.
-
-Within each cluster, coverage is measured using a 180-dimensional lexical route vector. Twelve cue families cover checking, revision, alternative approaches, case reasoning, conclusions, modular arithmetic, geometry, counting and probability, algebra, calculus, invariants and proof techniques, and enumeration. The vector concatenates normalized cue counts, the fraction of each cue appearing in the latter half of the response, normalized cue-to-cue transition counts, and cue-presence indicators. This representation describes solution text rather than an inferred proof graph.
-
-The vectors are standardized over the eligible corpus, clipped to the range $[-5,5]$, and normalized before a greedy farthest-point procedure. The first example maximizes a low-repetition quality score. Subsequent choices combine distance to the nearest selected example with quality:
-\begin{equation}
- U_i=0.8\min\!\left(\frac{d_i}{2},1\right)+0.2(1-r(y_i)),
-\end{equation}
-where $d_i$ is the nearest squared distance in normalized route-feature space. Selected examples are shuffled with seed 42. The saved response-token totals are approximately 62.87 million for the advanced export and 109.50 million for the random export. These are export-level counts, not counts of tokens actually supervised by the trainer.
-
-\section{Training Setup}
-\subsection{Objective and Configuration}
-Training updates all model parameters using the response-only autoregressive cross-entropy objective. For input $x$, target response $y$, and the set $\mathcal{S}$ of supervised response positions retained after preprocessing,
-\begin{equation}
- \mathcal{L}(\theta)=-\frac{1}{|\mathcal{S}|}\sum_{t\in\mathcal{S}}
- \log p_\theta(y_t\mid x,y_{<t}).
-\end{equation}
-Prompt positions are excluded from the loss. The run uses the Qwen template, BF16 mixed precision, SDPA attention and gradient checkpointing. Packing is disabled. Table~\ref{tab:train} lists the actual configuration of the submitted model.
-
-\begin{table}[htbp]\centering\small
-\caption{Training configuration of the completed model.}\label{tab:train}
-\begin{tabular}{ll@{\hspace{1.5em}}ll}\toprule
-Setting & Value & Setting & Value\\\midrule
-Training examples & 15,000 & Context length & 4,096\\
-Optimizer updates & 1,875 & Batch per device & 1\\
-Gradient accumulation & 8 & Effective batch & 8\\
-Learning rate & $2\times10^{-6}$ & Schedule & Cosine\\
-Warmup ratio & 0.03 & Weight decay & 0.01\\
-Gradient clipping & 1.0 & Seed / data seed & 42 / 42\\
-Training hardware & One B200 & Precision & BF16 mixed\\\bottomrule
+\begin{table}[H]\centering\small
+\caption{Submission navigation aligned with the instructor's rubric. Points are available weights, not self-awarded scores.}
+\begin{tabular}{p{.42\linewidth}rp{.39\linewidth}}\toprule
+Category & Points & Repository evidence\\\midrule
+Environment and reproducibility & 10 & README, REPRODUCE, dependencies\\
+Dataset preparation & 15 & Preparation, selectors, public datasets\\
+SFT implementation and training & 20 & Configs, trainer, finite histories\\
+Model evaluation & 20 & Four suites, protocol, CPU verifier\\
+Advanced selection & 20 & Method, implementation, random comparison\\
+Report and analysis & 15 & This report, tables and figures\\\bottomrule
 \end{tabular}
 \end{table}
+The public repository's \texttt{RUBRIC.md} maps every subcriterion. The existing public model is the 51.5222\% advanced route model. The best model's weights and distinct assistance-selected dataset remain unpublished; their measured results are included without relabeling the existing release.
 
-The trainer completed 1,875 optimizer updates and reported epoch 1.0. With an effective batch size of eight, this corresponds to one traversal of 15,000 examples. The recorded runtime is 3,989.39 seconds, or 66.49 minutes; this is the trainer-reported runtime and excludes separate preprocessing, scheduling and final benchmark evaluation. The reported mean training loss is 0.5780. Recorded loss and gradient-norm values are finite throughout the completed history.
+\newpage
+\section{Dataset Preparation and Selection}
+\subsection{Shared Preparation and Random Control}
+The supplied AceReason-1.1 100K data are normalized to instruction, input, output and optional system fields. Preparation removes invalid examples and normalized duplicate prompts, excludes recognizable benchmark overlaps using exact matches and character shingles, and reserves validation before selection. These operations reduce detectable overlap; they do not prove absence of semantic contamination or pretraining exposure.
 
-\begin{figure}[!htbp]\centering
-\includegraphics[width=\linewidth]{figures/training_dynamics.pdf}
-\caption{Recorded training dynamics for all 1,875 optimizer updates. The loss panel shows raw per-update response cross-entropy and a trailing 50-update moving average. The learning-rate panel shows the actual warmup and cosine schedule. These traces establish optimization progress; they are not estimates of benchmark accuracy.}\label{fig:training}
-\end{figure}
+The random dataset contains 15,000 source examples sampled with seed 42. The published advanced route dataset also contains 15,000 original examples. Both exports are public in the same Hugging Face dataset repository. Original responses remain training targets; no benchmark answers or generated replacements are used as training labels.
 
-\subsection{Context and Loader Considerations}
-The 8,192-token data-selection cutoff differs from the actual 4,096-token training context. Eligible demonstrations can therefore pass selection but be truncated during training, potentially removing part of the final derivation or answer. The exported dataset should not be described as 8,192 tokens of supervised context per example. The original dataset configuration also does not explicitly map the system column. The report retains these details as limitations of this completed run; it does not infer a measured causal effect from either mismatch.
+\subsection{Advanced Route Selection: Hypothesis and Implementation}
+Our hypothesis is that quality filtering and topic/route coverage reduce redundant demonstrations while retaining useful variation. Eligibility requires at least 128 response tokens, a complete boxed answer, repeated word-eight-gram fraction at most 0.35, and a complete sequence fitting the 8,192-token selection cutoff with a 32-token reserve. For word eight-grams $G_8(y)$, repetition is $1-|\mathrm{unique}(G_8(y))|/|G_8(y)|$, defined as zero if none exist. These are text proxies, not correctness certification.
 
-\section{Evaluation Protocol}
-\subsection{Benchmarks and Generation}
-The benchmark suite contains AIME 2024, AIME 2025, MATH-500, CN Math 2024, Kaoyan, AMC, Minerva Math, OlympiadBench and GPQA-Diamond. The recorded suite contains 1,974 records. Each model generates eight answers per record, yielding 15,792 sampled responses per model. AIME 2025 was separately sourced as a supplement to the supplied suite. The MATH evaluation here contains 500 records; reported denominators use the actual evaluated records rather than the count printed in the assignment's introductory table.
+Prompt features use character TF--IDF, truncated SVD and MiniBatch K-means. The export has 113 populated eligible clusters. Each next quota slot goes to the non-full cluster maximizing $\sqrt{N_j}/(q_j+1)$, where $N_j$ is capacity and $q_j$ the current quota. This balances corpus prevalence against broad coverage.
 
-Both arms use temperature 0.6, top-$p$ 0.95, at most 32,768 new tokens, a configured maximum model length of 32,768, seed 0 with stable question-specific seeds, batch size 1,024, at most 128 active sequences, tensor parallelism one and GPU-memory utilization 0.85 on one B200. The system instruction requests step-by-step reasoning and a boxed final answer. Answer extraction and rule-based grading follow the assignment implementation~\cite{assignment}. The model context includes the prompt, so the number of available output tokens can be smaller than the new-token limit.
+Within a cluster, 180-dimensional lexical route features encode cue counts, late-response cues, cue transitions and cue presence across 12 families. Standardized, clipped and normalized vectors support greedy farthest-point selection, weighted 80\% toward diversity and 20\% toward low repetition. These features describe solution text, not validated proof graphs. Seed 42 fixes the output shuffle. Eligibility differs between random and advanced, so the comparison tests the whole selection procedure.
 
-\subsection{Metrics and Aggregation}
-Let $c_i$ be the number of correct sampled responses among $n=8$ for question $i$. The recorded pass@1 is the average sample correctness, while pass@8 is the fraction of records for which at least one sample is correct:
-\begin{equation}
- \operatorname{pass@1}=\frac{1}{N}\sum_{i=1}^{N}\frac{c_i}{8},
- \qquad
- \operatorname{pass@8}=\frac{1}{N}\sum_{i=1}^{N}\mathbf{1}[c_i>0].
-\end{equation}
-The assignment's AVG is an unweighted mean over seven benchmarks: AIME 2025, CN Math 2024, Kaoyan, AMC, Minerva Math, OlympiadBench and GPQA. AIME 2024 and MATH are reported individually but are not part of that average. This mean is distinct from pooling all questions across datasets or averaging all nine benchmarks.
+\subsection{Best Extension: Assistance-Associated Utility and Coverage}
+A distinct dataset uses saved source-only normal-versus-prefix-assisted observations, two supported, normally finished samples per condition. Laplace-smoothed probabilities and utility are
+\[
+ p_n=(c_n+1)/4,\quad p_a=(c_a+1)/4,\quad
+ u=(1-p_n)\max(p_a-p_n,0).
+\]
+Missing, censored and unsupported measurements remain unscored. Each topic cluster is divided into response-length quartiles; capped square-root quotas permit positive-utility selection for at most half of each cell. Deterministic source-ID ordering fills the rest. The saved selection has 56,673 eligible originals, 23,014 scored prompts, 3,672 utility selections and 11,328 coverage selections. Native preprocessing records 105,389,717 supervised response tokens per epoch.
 
-\subsection{Paired Uncertainty}
-Saved per-benchmark intervals use a paired bootstrap with 2,000 resamples and seed 42. Questions, rather than individual sampled answers, form the resampling units. Repeated normalized question records are clustered together while preserving their record weights. The same resampled units are used for both models. The intervals are descriptive, per-comparison intervals without a multiple-comparison correction, and they do not measure variation across training seeds. Table~\ref{tab:intervals} lists the recorded per-benchmark intervals.
+Training still uses complete original targets. Assistance association is not a causal learnability estimate; semantic prefix leakage has not been excluded. The public portable selector exposes scoring and quota selection, but the exact saved measurement ledger and this separate data export are absent from the current public release. It cannot be reproduced exactly by substituting the published route dataset.
 
-\section{Benchmark Results}
-\begin{table}[htbp]\centering\small
-\caption{Complete benchmark results in percent. Each score is recomputed from the saved eight-sample correctness vectors.}\label{tab:results}
-\begin{tabular}{lrrrrr}\toprule
- & & \multicolumn{2}{c}{Pass@1} & \multicolumn{2}{c}{Pass@8}\\
-Benchmark & Questions & Base & Fine-tuned & Base & Fine-tuned\\\midrule
-AIME 2024 & 30 & 7.08 & 4.58 & 23.33 & 16.67 \\
-AIME 2025 & 30 & 2.50 & 3.33 & 13.33 & 20.00 \\
-MATH-500 & 500 & 65.88 & 64.00 & 85.20 & 85.00 \\
-CN Math 2024 & 30 & 7.50 & 7.92 & 23.33 & 33.33 \\
-Kaoyan & 199 & 22.42 & 21.23 & 56.78 & 59.80 \\
-AMC & 40 & 44.38 & 37.50 & 77.50 & 70.00 \\
-Minerva Math & 272 & 31.07 & 27.30 & 49.63 & 48.90 \\
-OlympiadBench & 675 & 27.50 & 26.33 & 49.48 & 49.33 \\
-GPQA-Diamond & 198 & 29.48 & 29.36 & 76.77 & 79.29 \\
+\newpage
+\section{SFT Setup and Evaluation Protocol}
+\subsection{Completed Training Configurations}
+All trained models update full parameters with response-only autoregressive cross-entropy, Qwen template, SDPA attention, BF16 mixed precision and gradient checkpointing. Packing and prompt loss are disabled. Weight decay is 0.01, gradient clipping 1.0 and train/data seeds are 42.
+
+\begin{table}[H]\centering\small
+\caption{Core comparison and separate best extension.}
+\begin{tabular}{lrrr}\toprule
+Setting & Random & Advanced route & Best assistance\\\midrule
+Original examples & 15,000 & 15,000 & 15,000\\
+Training context & 4,096 & 4,096 & 16,384\\
+Epochs & 1 & 1 & 3\\
+Optimizer updates & 1,875 & 1,875 & 5,625\\
+Effective batch size & 8 & 8 & 8\\
+Learning rate & $2\!\times\!10^{-6}$ & $2\!\times\!10^{-6}$ & $5\!\times\!10^{-6}$\\
+Schedule & Cosine & Cosine & Cosine\\
+Warmup ratio & 0.03 & 0.03 & 0\\\bottomrule
+\end{tabular}
+\end{table}
+The random and advanced recipes use one rank with batch one and accumulation eight. The best recipe uses four ranks with batch one and accumulation two per rank. It completed through recovery across allocations. Saved histories contain every finite update through 1,875 or 5,625 respectively. The histories establish completed optimization; they are not accuracy estimates.
+
+The published random/advanced selection cutoff is 8,192, but their training context is 4,096; some selected targets can be truncated. The original loader did not explicitly map the system column. These are disclosed properties of the completed comparison, not demonstrated causes of its outcomes.
+
+
+
+\subsection{Matched Inference and Metrics}
+Each of four models completes 1,974 records across AMC, AIME 2025, AIME 2024, MATH-500, CN Math 2024, Kaoyan, Minerva Math, OlympiadBench and GPQA-Diamond. AIME 2025 is a separately sourced supplement. The evaluated MATH denominator is 500. There are eight responses per record, or 15,792 samples per model.
+
+All four suites use one B200, vLLM 0.19.0, Transformers 4.57.6, PyTorch 2.10.0, seed 0 with stable question seeds, temperature 0.6, top-$p$ 0.95, maximum new and total-context limits of 32,768, batch 1,024, maximum active sequences 128, tensor parallelism one and memory utilization 0.85. The original boxed-answer system prompt, extraction and grader are retained. Prompt tokens consume total context.
+
+For $c_i$ correct answers among eight, pass@1 is $\frac{1}{N}\sum_i c_i/8$ and pass@8 is $\frac{1}{N}\sum_i\mathbf{1}[c_i>0]$. The assignment mean equally weights seven tasks, excluding AIME 2024 and MATH. It is neither a pooled-question score nor the mean of all nine.
+
+\newpage
+\section{Complete Benchmark Results}
+\begin{table}[H]\centering\scriptsize
+\caption{Pass@8 in percent for every completed model. The final columns compare the best model's solved count to the fixed integer requirement. These historical targets are distinct from our matched original-model scores.}
+\begin{tabular}{lrrrrrrr}\toprule
+Benchmark & $N$ & Original & Random & Advanced & Best & Solved/required & Met\\\midrule
+AMC & 40 & 77.50 & 77.50 & 70.00 & 70.00 & 28/33 & No \\
+AIME 2025 & 30 & 13.33 & 13.33 & 20.00 & 26.67 & 8/8 & Yes \\
+AIME 2024 & 30 & 23.33 & 20.00 & 16.67 & 20.00 & 6/8 & No \\
+MATH-500 & 500 & 85.20 & 84.20 & 85.00 & 88.20 & 441/451 & No \\
+CN Math 2024 & 30 & 23.33 & 30.00 & 33.33 & 33.33 & 10/14 & No \\
+Kaoyan & 199 & 56.78 & 55.78 & 59.80 & 66.83 & 133/138 & No \\
+Minerva Math & 272 & 49.63 & 46.32 & 48.90 & 47.06 & 128/95 & Yes \\
+OlympiadBench & 675 & 49.48 & 49.63 & 49.33 & 52.74 & 356/385 & No \\
+GPQA-Diamond & 198 & 76.77 & 81.82 & 79.29 & 70.71 & 140/121 & Yes \\
 \midrule
-Seven-benchmark mean & --- & 23.55 & 21.85 & 49.55 & 51.52\\\bottomrule
+Seven-task mean & -- & 49.5474 & 50.6262 & 51.5222 & 52.4773 & -- & --\\\bottomrule
 \end{tabular}
 \end{table}
 
-The seven-benchmark pass@8 mean increases by 1.97 percentage points, from 49.55\% to 51.52\%. The largest positive numerical differences are on CN Math 2024 and AIME 2025, both of which contain only 30 questions. Their pass@8 differences of 10.00 and 6.67 percentage points correspond to three and two additional solved records, respectively. These small denominators make the displayed percentages sensitive to a small number of outcomes.
-
-\begin{figure}[!htbp]\centering
-\includegraphics[width=\linewidth]{figures/benchmark_pass8.pdf}
-\caption{Base and fine-tuned pass@8 on all evaluated benchmarks. Each bar represents the fraction of question records solved by at least one of eight generated answers. The full table includes both improvements and regressions.}\label{fig:benchmark}
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figures/rubric_benchmarks.pdf}
+\caption{All nine pass@8 scores. One fixed best model supplies all its scores; we do not stitch benchmark-specific winners. Complete regressions remain visible.}
 \end{figure}
 
-Kaoyan and GPQA also show higher pass@8 after fine-tuning. Conversely, AIME 2024 and AMC decrease, while MATH, Minerva and OlympiadBench change slightly downward. The observed result is therefore not a uniform performance gain. The assignment mean reflects the weighting rule applied to these mixed changes rather than a general improvement on every reasoning domain.
+\textbf{Three of nine targets.} The assistance model meets AIME 2025 (8/30), Minerva (128/272) and GPQA (140/198), while missing the other six. The integer targets require strict exceedance of the fixed historical reference percentages. This is a local reference check, not proof of official leaderboard placement. It does not establish eligibility for the top-five bonus.
 
-The recorded paired interval for the seven-benchmark pass@8 difference is $[-1.89,+5.74]$ percentage points. Because it contains zero, the experiment does not establish a statistically conclusive average pass@8 gain. The corresponding recorded pass@1 interval is $[-3.16,-0.22]$ points for a mean difference of $-1.70$ points. These intervals describe uncertainty conditional on the completed runs and the evaluation samples, not the uncertainty of retraining the entire method.
+\textbf{Core selection comparison.} Advanced route SFT exceeds random by 0.8960 percentage points in seven-task pass@8 under the same one-epoch training settings. This is a descriptive single-seed comparison. Different selected examples and response-token exposure remain part of the treatment.
 
-\begin{figure}[!htbp]\centering
-\includegraphics[width=\linewidth]{figures/paired_intervals.pdf}
-\caption{Recorded paired 95\% bootstrap intervals for benchmark-level differences. The dashed line denotes equal scores. Intervals resample question clusters and are not adjusted for multiple comparisons. The plotted quantities are percentage-point differences, not relative percent changes.}\label{fig:intervals}
+\textbf{Best extension.} The assistance model exceeds random by 1.8510 points and the original by 2.9298 points in the same mean. Context, learning rate, warmup and training duration also change; the difference cannot be attributed solely to assistance-based selection.
+
+\textbf{Regressions.} Relative to our original, the best model decreases on AMC, AIME 2024, Minerva and GPQA. Meeting the Minerva and GPQA historical targets does not imply beating this matched original on those tasks. Nine-target success has not been achieved.
+
+\newpage
+\section{Analysis, Limitations and Improvements}
+\begin{table}[H]\centering\small
+\caption{Metric and generation tradeoffs on the identical completed suites.}
+\begin{tabular}{lrrr}\toprule
+Model & Mean pass@1 (\%) & Mean pass@8 (\%) & Truncated / 15,792\\\midrule
+Original & 23.5497 & 49.5474 & 141\\
+Random SFT & 21.1928 & 50.6262 & 2,494\\
+Advanced route SFT & 21.8526 & 51.5222 & 1,964\\
+Assistance + coverage & 22.9398 & 52.4773 & 2,324\\\bottomrule
+\end{tabular}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figures/rubric_tradeoffs.pdf}
+\caption{Higher multiple-sample accuracy accompanies more length-limited responses. Count labels on the right use the same 15,792-response denominator.}
 \end{figure}
 
-\section{Generation Behavior and Interpretation}
-The multiple-sample metric and single-sample metric move in different directions. Average pass@1 decreases from 23.55\% to 21.85\%, even though average pass@8 increases. A model can become more likely to produce at least one correct result across several attempts without increasing the expected correctness of a randomly chosen attempt. This experiment records that tradeoff, but it does not identify its mechanism: diversity of reasoning paths, answer variability, token-budget use and sampling effects were not separately manipulated.
+\textbf{Stopping and single-sample reliability.} All trained models have lower seven-task pass@1 than the original, while their pass@8 rises. The best model has 2,324 truncated samples versus 141 for the original. Multi-attempt solving therefore improves numerically without establishing more reliable individual answers or better computational efficiency. Truncation alone does not show whether continued generations would become correct.
 
-Termination changes substantially. The base model has 141 truncated responses across the full suite, compared with 1,964 for the fine-tuned model: approximately 0.89\% and 12.44\% of the 15,792 sampled responses. Truncation measures responses recorded as reaching a length boundary. It does not by itself establish whether those responses would eventually become correct, nor does it account for all computational cost.
+\textbf{Exploration and uncertainty.} Results come from a broader exploratory campaign and one training seed per reported model. No new confidence interval or statistical-significance claim is inferred from aggregate differences. Earlier advanced-versus-original paired bootstrap intervals remain in the repository, but they do not apply to the best-versus-random comparison. Sampling more questions cannot substitute for repeated training seeds or a preregistered confirmation.
 
-\begin{figure}[!htbp]\centering
-\includegraphics[width=\linewidth]{figures/generation_tradeoffs.pdf}
-\caption{Generation behavior and the metric tradeoff. Left: truncated samples as a percentage of sampled responses within each benchmark. Right: the specified seven-benchmark mean for pass@1 and pass@8. The panels describe the same completed evaluation rather than a separate experiment.}\label{fig:tradeoffs}
-\end{figure}
+\textbf{Selection proxies and confounds.} Lexical diversity does not validate reasoning, complete-looking answers can be wrong, and prefix-assisted success can reflect revealed answer information. The best model's larger context and three epochs confound a selection-only interpretation. Identifiable benchmark overlap is excluded, but semantic contamination and pretraining exposure remain possible. GPU constraints affected scheduling and follow-up scope; incomplete or timed-out evaluations are excluded from this table.
 
-The sharp increase in truncation is relevant to usability: a higher multiple-attempt solve rate does not guarantee efficient or dependable individual answers. Training on longer source responses while restricting the training context to 4,096 tokens is a plausible concern, but the present evidence does not isolate that factor. It would be inappropriate to attribute the observed termination behavior solely to truncation, the loader mapping, the selection rule or a particular hyperparameter without a controlled comparison.
+\textbf{Next experiments.} Compare selectors under equal context, token exposure, optimizer updates and initialization; repeat training seeds; and investigate response termination while preserving the evaluation prompt, sample count, token limits and grader. Ongoing work must finish independent audits and evaluation before replacing this snapshot. We do not forecast nine-benchmark success from training loss or partial results.
 
-\section{Limitations and Reproducibility}
-\textbf{No matched random-data training control.} Both random and advanced datasets are distributed, but a completed full-parameter random-data model evaluated under this same nine-benchmark protocol is not available. The base-versus-SFT comparison measures a complete training pipeline, not the advantage of advanced selection over random selection. A fair selection ablation would hold initialization, training budget, context, optimizer, sampling and grading fixed while varying the selected data.
+\newpage
+\section{Reproducibility, Public Artifacts and Gaps}
+\subsection{Repository and Artifact Identity}
+The \href{https://github.com/rohitsalla/reasoning-sft-submission}{public GitHub repository} includes preparation/selection code, the vendored LLaMA-Factory trainer, portable training configurations, evaluator, shared protocol, score vectors, finite training histories, report source and figure builder. \texttt{REPRODUCE.md} provides environment setup, data preparation, training, inference and report commands. Training uses Transformers 4.55.0 and evaluation uses 4.57.6 in separate environments. Observed dependencies are recorded; they are not complete platform lockfiles or a bitwise replay guarantee.
 
-\textbf{Single training seed and adaptive exploration.} The report concerns one completed training seed. Benchmark resampling does not substitute for multiple training seeds. The model comes from a broader project with other experiments, so the present evaluation should not be treated as a preregistered confirmation study.
+The \href{https://huggingface.co/datasets/rohitspider/reasoning-sft-submission-data-15k}{public dataset release} contains both original random and advanced route exports. The \href{https://huggingface.co/rohitspider/reasoning-sft-submission-full-15k}{public full-model release} corresponds to the advanced route result of 51.5222\%, not the best assistance result of 52.4773\%. The downloader uses the readable release tag \texttt{course-submission-20261020-authors}.
 
-\textbf{Proxy-based selection.} Route vectors detect lexical patterns, not the validity or causal structure of reasoning. Quality filters favor complete-looking answers and low repetition but cannot guarantee correctness. Cluster quotas also depend on the chosen text representation and clustering procedure. The experiment does not establish that these particular design choices are optimal.
+\begin{itemize}
+\item Best-model weights and the distinct assistance-selected export are not yet published. The best-run configuration and portable selector are included, but exact replay requires those missing artifacts and validated scoring observations.
+\item Random-model weights are not published; its complete training history and nine-benchmark evaluation are included.
+\item No official LiveBenchmark rank, top-five bonus or course-portal submission is asserted.
+\end{itemize}
 
-\textbf{Data and metric boundaries.} Overlap removal reduces recognizable contamination but does not prove absence of all semantic overlap or exclude pretraining exposure. AIME 2025 is separately sourced, and results should be interpreted using the actual evaluated records. Rule-based grading and boxed-answer extraction can also differ from human judgments of reasoning quality.
+\subsection{Independent Outcome Checks}
+A zero-GPU compute export verified that the four original manifests share the same inference protocol, hardware, dataset identities and question order. It recomputed all scores and truncations before exporting correctness and finish reasons. No raw generated reasoning or restricted question text was copied into the updated public evidence.
 
-\textbf{Artifacts.} The \href{https://github.com/rohitsalla/reasoning-sft-submission}{public project repository} includes the configuration, selection/evaluation code, recorded scores, per-question correctness vectors, this LaTeX source and plot-generation script. The model and both 15,000-example datasets are hosted on Hugging Face. The result-checking script recomputes all benchmark scores from the saved correctness vectors. The public download script uses a readable release tag. Original model, dataset and software license terms remain applicable.
+The public standard-library command \texttt{python3 scripts/verify\_submission.py} checks 7,896 records, 63,168 Boolean correctness flags, all four score tables, seven-task means, length-limited sample counts, complete finite random/best histories and the exact three-target count. Public record IDs are positional aliases for the privately verified common order. These checks recompute recorded outcomes; they do not rerun model inference, regrade raw responses or prove exported model-weight identity.
 
 \section{Conclusion}
-The completed 15,000-example full-parameter SFT run produces a mixed reasoning result. The seven-benchmark pass@8 mean rises numerically to 51.52\%, but its recorded confidence interval does not establish a conclusive gain over the base. Average pass@1 declines, and length-limited outputs become substantially more common. Reporting these outcomes together is essential: average multi-attempt accuracy alone would obscure a material change in individual-answer reliability and generation behavior. A matched random-data control, consistent selection/training context and repeated training seeds are the most direct next experiments for evaluating whether the proposed selection procedure offers a reproducible benefit.
+The completed core comparison gives a small descriptive pass@8 advantage to advanced route selection over random sampling. A separately trained assistance-and-coverage model is the best measured result at 52.4773\% seven-task pass@8 and three of nine fixed targets, with six targets still unmet. Worse truncation and lower pass@1 relative to the original qualify that result. The repository separates completed evidence from ongoing exploration and identifies missing artifacts, allowing assessment against the project rubric without implying complete nine-target success or official leaderboard standing.
 
-\FloatBarrier
-\begin{thebibliography}{9}
-\bibitem{qwen} Qwen Team. \emph{Qwen2.5-3B-Instruct: Model card}. Hugging Face, 2024. \url{https://huggingface.co/Qwen/Qwen2.5-3B-Instruct}.
-\bibitem{acereason} Assignment dataset maintainers. \emph{AceReason-1.1 100K subset}. Hugging Face. \url{https://huggingface.co/datasets/redsgnaoh/acereason11_100k}.
-\bibitem{llamafactory} Yaowei Zheng et al. \emph{LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models}. arXiv:2403.13372, 2024. \url{https://arxiv.org/abs/2403.13372}.
-\bibitem{assignment} REDS Lab. \emph{Project-Reasoning-SFT-LLM: Assignment, evaluator and submission instructions}. 2026. \url{https://github.com/reds-lab/Project-Reasoning-SFT-LLM}.
+\begin{thebibliography}{9}\small
+\bibitem{qwen} Qwen Team. \emph{Qwen2.5-3B-Instruct model card}. \url{https://huggingface.co/Qwen/Qwen2.5-3B-Instruct}.
+\bibitem{acereason} Dataset maintainers. \emph{AceReason-1.1 100K}. \url{https://huggingface.co/datasets/redsgnaoh/acereason11_100k}.
+\bibitem{llamafactory} Y. Zheng et al. \emph{LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models}. arXiv:2403.13372, 2024.
+\bibitem{assignment} REDS Lab. \emph{Project-Reasoning-SFT-LLM assignment and evaluator}. \url{https://github.com/reds-lab/Project-Reasoning-SFT-LLM}.
 \end{thebibliography}
-
-\appendix
-\section{Per-Benchmark Paired Intervals}
-\begin{table}[H]\centering\small
-\caption{Recorded differences and 95\% intervals in percentage points. Endpoints are from the saved paired question-cluster bootstrap comparisons.}\label{tab:intervals}
-\begin{tabular}{lrrrr}\toprule
- & \multicolumn{2}{c}{Pass@8} & \multicolumn{2}{c}{Pass@1}\\
-Benchmark & Difference & 95\% interval & Difference & 95\% interval\\\midrule
-AIME 2024 & -6.67 & [-20.00, 6.67] & -2.50 & [-7.08, 1.25] \\
-AIME 2025 & +6.67 & [-6.67, 20.00] & +0.83 & [-0.83, 2.50] \\
-MATH-500 & -0.20 & [-2.60, 2.20] & -1.88 & [-3.55, -0.30] \\
-CN Math 2024 & +10.00 & [-10.00, 26.67] & +0.42 & [-7.08, 7.92] \\
-Kaoyan & +3.02 & [-3.47, 9.69] & -1.19 & [-4.27, 1.84] \\
-AMC & -7.50 & [-17.50, 0.00] & -6.88 & [-11.88, -2.19] \\
-Minerva Math & -0.74 & [-4.41, 2.57] & -3.77 & [-5.84, -1.88] \\
-OlympiadBench & -0.15 & [-3.11, 2.81] & -1.17 & [-2.43, 0.09] \\
-GPQA-Diamond & +2.53 & [-4.04, 8.59] & -0.13 & [-3.03, 2.78] \\
-\bottomrule\end{tabular}
-\end{table}
-
-\FloatBarrier
-\section{Software and Artifact Access}
-Training uses PyTorch 2.10.0, Transformers 4.55.0 and the vendored LLaMA-Factory implementation. Evaluation uses vLLM 0.19.0 and Transformers 4.57.6. Separate observed dependency lists are included in the repository; they are not complete dependency lockfiles. The training configuration uses no DeepSpeed configuration.
-
 \end{document}

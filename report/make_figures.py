@@ -57,3 +57,37 @@ save(fig,'generation_tradeoffs')
 summary={'questions':sum(base[k]['problems'] for k in keys),'samples_per_model':sum(base[k]['problems']*8 for k in keys),'base_truncated':sum(base[k]['truncated_samples'] for k in keys),'sft_truncated':sum(sft[k]['truncated_samples'] for k in keys),'training_updates':len(rows),'final_logged_loss':float(loss[-1]),'reported_train_loss':state['log_history'][-1]['train_loss'],'train_runtime_seconds':state['log_history'][-1]['train_runtime']}
 (OUT/'figure_data.json').write_text(json.dumps(summary,indent=2)+'\n')
 print(json.dumps(summary,indent=2))
+
+# Current rubric snapshot, all four completed suites.
+snapshot=json.loads((ROOT/'results/rubric-comparison/summary.json').read_text())
+labels=['base','random','advanced','best']
+legend=['Original','Random SFT','Advanced route SFT','Best: assistance + coverage']
+colors=['#697786','#469786','#cb8b45','#245b89']
+fig,ax=plt.subplots(figsize=(10.0,4.0),layout='constrained')
+w=.20
+for i,(label,title,color) in enumerate(zip(labels,legend,colors)):
+ ax.bar(x+(i-1.5)*w,[snapshot[label]['benchmarks'][k]['pass_at_8']*100 for k in keys],w,label=title,color=color)
+ax.set(xticks=x,xticklabels=names,ylabel='Pass@8 (%)',ylim=(0,104))
+ax.legend(ncol=2,loc='upper left',fontsize=8);ax.grid(axis='y',alpha=.15);ax.set_axisbelow(True)
+save(fig,'rubric_benchmarks')
+fig,axes=plt.subplots(1,2,figsize=(9.0,3.3),layout='constrained')
+xx=np.arange(4)
+for i,(label,color) in enumerate(zip(labels,colors)):
+ axes[0].bar(i,snapshot[label]['seven_benchmark_macro']['pass_at_8']*100,color=color)
+ axes[0].text(i,snapshot[label]['seven_benchmark_macro']['pass_at_8']*100+.4,f"{snapshot[label]['seven_benchmark_macro']['pass_at_8']*100:.2f}",ha='center',fontsize=9)
+ axes[1].bar(i,snapshot[label]['truncated_samples']/15792*100,color=color)
+ axes[1].text(i,snapshot[label]['truncated_samples']/15792*100+.25,str(snapshot[label]['truncated_samples']),ha='center',fontsize=9)
+for ax in axes:
+ ax.set(xticks=xx,xticklabels=['Original','Random','Advanced','Best']);ax.grid(axis='y',alpha=.15);ax.set_axisbelow(True)
+axes[0].set(ylabel='Seven-task mean pass@8 (%)',ylim=(0,60))
+axes[1].set(ylabel='Truncated responses (%)',ylim=(0,19))
+save(fig,'rubric_tradeoffs')
+fig,axes=plt.subplots(1,2,figsize=(9.0,3.1),layout='constrained')
+for ax,label,color,title in zip(axes,['random','best'],[colors[1],colors[3]],['Random SFT: one epoch','Best assistance + coverage: three epochs']):
+ state=json.loads((ROOT/f'results/rubric-comparison/{label}-training.json').read_text())
+ hist=[r for r in state['log_history'] if 'loss' in r]
+ steps=np.array([r['step'] for r in hist]);values=np.array([r['loss'] for r in hist])
+ ax.plot(steps,values,color=color,lw=.35,alpha=.3)
+ ax.plot(steps[49:],np.convolve(values,np.ones(50)/50,mode='valid'),color=color,lw=1.4)
+ ax.set(title=title,xlabel='Optimizer update',ylabel='Logged response loss');ax.grid(alpha=.15)
+save(fig,'rubric_training')
